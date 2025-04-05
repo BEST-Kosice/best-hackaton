@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hack the BEST - 24-hodinový hackathon v Košiciach organizovaný študentskou organizáciou BEST Košice. Príďte ukázať svoje schopnosti a vyhrajte skvelé ceny!">
+    <meta name="keywords" content="hackathon, Košice, BEST, programming, competition, technology, innovation, students, hackathon, Košice, BEST, programovanie, súťaž, technológie, inovácie, študenti, coding, kódovanie, engineering, inžinierstvo, teamwork, tímová práca, startup, startup, networking, networking, skills development, rozvoj zručností, problem-solving, riešenie problémov, creativity, kreativita">
+    <meta name="author" content="BEST Košice">
+    <meta property="og:title" content="Hack the BEST - Hackathon v Košiciach">
+    <meta property="og:description" content="24-hodinový hackathon organizovaný BEST Košice. Ukáž svoje schopnosti a vyhraj skvelé ceny!">
+    <meta property="og:image" content="{% static 'images/best-logo.png' %}">
+    <meta property="og:url" content="{{ request.build_absolute_uri }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>{% block title %}Hack the BEST - Hackathon v Košiciach{% endblock %}</title>
+    <link rel="canonical" href="{{ request.build_absolute_uri }}">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                  colors: {
+                    border: "hsl(var(--border))",
+                    input: "hsl(var(--input))",
+                    ring: "hsl(var(--ring))",
+                    background: "hsl(var(--background))",
+                    foreground: "hsl(var(--foreground))",
+                    primary: {
+                      DEFAULT: "hsl(var(--primary))",
+                      foreground: "hsl(var(--primary-foreground))",
+                      50: "#ffe6ed",
+                      100: "#ffb3cc",
+                      200: "#ff80aa",
+                      300: "#ff4d88",
+                      400: "#ff1a66",
+                      500: "#e60044",
+                      600: "#b30035",
+                      700: "#800026",
+                      800: "#4d0017",
+                      900: "#1a0008",
+                    },
+                    secondary: {
+                      DEFAULT: "hsl(var(--secondary))",
+                      foreground: "hsl(var(--secondary-foreground))",
+                    },
+                    destructive: {
+                      DEFAULT: "hsl(var(--destructive))",
+                      foreground: "hsl(var(--destructive-foreground))",
+                    },
+                    muted: {
+                      DEFAULT: "hsl(var(--muted))",
+                      foreground: "hsl(var(--muted-foreground))",
+                    },
+                    accent: {
+                      DEFAULT: "hsl(var(--accent))",
+                      foreground: "hsl(var(--accent-foreground))",
+                    },
+                    popover: {
+                      DEFAULT: "hsl(var(--popover))",
+                      foreground: "hsl(var(--popover-foreground))",
+                    },
+                    card: {
+                      DEFAULT: "hsl(var(--card))",
+                      foreground: "hsl(var(--card-foreground))",
+                    },
+                  },
+                  borderRadius: {
+                    lg: "var(--radius)",
+                    md: "calc(var(--radius) - 2px)",
+                    sm: "calc(var(--radius) - 4px)",
+                  },
+                  animation: {
+                    float: "float 3s ease-in-out infinite",
+                  },
+                  keyframes: {
+                    float: {
+                      "0%, 100%": { transform: "translateY(0)" },
+                      "50%": { transform: "translateY(-10px)" },
+                    },
+                  },
+                },
+              },
+              plugins: [require("tailwindcss-animate")],
+            }
+    </script>
+    {% block extra_head %}{% endblock %}
+</head>
+<body>
+    <header>
+        {% include 'includes/navbar.html' %}
+        {% block header %}{% endblock %}
+    </header>
+
+    {% if messages %}
+    <div class="fixed top-20 right-4 z-50">
+        {% for message in messages %}
+        <div class="message {% if message.tags == 'success' %}message-success{% else %}message-error{% endif %}">
+            {{ message }}
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        {% include 'includes/footer.html' %}
+    </footer>
+
+    {% block extra_body %}{% endblock %}
+
+    <script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>

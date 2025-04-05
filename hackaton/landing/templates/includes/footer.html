@@ -1,0 +1,77 @@
+{% load static %}
+
+<footer class="bg-[#990033] text-white py-12">
+    <div class="container mx-auto px-4 md:px-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div>
+                <img src="{% static 'images/best-logo-white.png' %}" alt="BEST Košice Logo" class="w-[150px] h-auto mb-4">
+                <p class="text-sm">
+                    BEST Košice je študentská organizácia pôsobiaca na Technickej univerzite v Košiciach od roku 1994.
+                </p>
+            </div>
+            <div>
+                <h4 class="font-bold text-lg mb-4">Rýchle odkazy</h4>
+                <ul class="space-y-2">
+                    <li>
+                        <a href="#participants" class="hover:underline">
+                            Pre účastníkov
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#sponsors" class="hover:underline">
+                            Pre sponzorov
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about-project" class="hover:underline">
+                            O projekte
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about-us" class="hover:underline">
+                            O nás
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="hover:underline">
+                            Kontakt
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold text-lg mb-4">Kontakt</h4>
+                <ul class="space-y-2">
+                    <li>
+                        <a href="mailto:kosice@best-eu.org" class="hover:underline">
+                            kosice@best-eu.org
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/company/bestkosice" target="_blank" rel="noopener noreferrer" class="hover:underline">
+                            LinkedIn
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/bestkosice" target="_blank" rel="noopener noreferrer" class="hover:underline">
+                            Instagram
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold text-lg mb-4">Adresa</h4>
+                <address class="not-italic text-sm">
+                    BEST Košice<br>
+                    Technická univerzita v Košiciach<br>
+                    Letná 9<br>
+                    042 00 Košice<br>
+                    Slovensko
+                </address>
+            </div>
+        </div>
+        <div class="mt-8 pt-8 border-t border-white/20 text-center text-sm">
+            <p>&copy; {% now "Y" %} BEST Košice. Všetky práva vyhradené.</p>
+        </div>
+    </div>
+</footer>
