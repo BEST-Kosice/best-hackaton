@@ -11,11 +11,11 @@
 
             <!-- Desktop Menu -->
             <div class="hidden md:flex items-center space-x-8">
-                <a href="#participants" class="nav-link font-medium">Pre účastníkov</a>
-                <a href="#sponsors" class="nav-link font-medium">Pre sponzorov</a>
-                <a href="#about-project" class="nav-link font-medium">O projekte</a>
-                <a href="#about-us" class="nav-link font-medium">O nás</a>
-                <a href="#contact" class="nav-link font-medium">Kontakt</a>
+                <a href="{% url 'home' %}#participants" class="nav-link font-medium">Pre účastníkov</a>
+                <a href="{% url 'home' %}#sponsors" class="nav-link font-medium">Pre sponzorov</a>
+                <a href="{% url 'home' %}#about-project" class="nav-link font-medium">O projekte</a>
+                <a href="{% url 'home' %}#about-us" class="nav-link font-medium">O nás</a>
+                <a href="{% url 'home' %}#contact" class="nav-link font-medium">Kontakt</a>
             </div>
 
             <!-- Mobile Menu Button -->
@@ -40,11 +40,11 @@
     </button>
 
     <div class="flex flex-col space-y-6 mt-16">
-        <a href="#participants" onclick="toggleMobileMenu()" class="hover:text-[#990033] font-medium">Pre účastníkov</a>
-        <a href="#sponsors" onclick="toggleMobileMenu()" class="hover:text-[#990033] font-medium">Pre sponzorov</a>
-        <a href="#about-project" onclick="toggleMobileMenu()" class="hover:text-[#990033] font-medium">O projekte</a>
-        <a href="#about-us" onclick="toggleMobileMenu()" class="hover:text-[#990033] font-medium">O nás</a>
-        <a href="#contact" onclick="toggleMobileMenu()" class="hover:text-[#990033] font-medium">Kontakt</a>
+        <a href="{% url 'home' %}#participants" onclick="toggleMobileMenu()" class="hover:text-[#990033] font-medium">Pre účastníkov</a>
+        <a href="{% url 'home' %}#sponsors" onclick="toggleMobileMenu()" class="hover:text-[#990033] font-medium">Pre sponzorov</a>
+        <a href="{% url 'home' %}#about-project" onclick="toggleMobileMenu()" class="hover:text-[#990033] font-medium">O projekte</a>
+        <a href="{% url 'home' %}#about-us" onclick="toggleMobileMenu()" class="hover:text-[#990033] font-medium">O nás</a>
+        <a href="{% url 'home' %}#contact" onclick="toggleMobileMenu()" class="hover:text-[#990033] font-medium">Kontakt</a>
     </div>
 </div>
 

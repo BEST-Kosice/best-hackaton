@@ -1,3 +1,369 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="612" height="888" viewBox="0 0 612 888" style="fill:none;stroke:none;fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style class="text-font-style fontImports" data-font-family="Roboto">@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=block');</style><g id="items" style="isolation: isolate"><g id="blend" style="mix-blend-mode: normal"><g id="g-root-cp_-1_lines_4otjy47k2rk9-fill" data-item-order="-441025" transform="translate(74, 194)"></g><g id="g-root-cp_-1_ground_1_901to7k2scj-fill" data-item-order="-441019" transform="translate(74, 604)"></g><g id="g-root-cp_-1_bucket_1_1lza2ik7k2qkl-fill" data-item-order="-441008" transform="translate(147, 528.7939453125)"><g id="cp_-1_bucket_1_1lza2ik7k2qkl-fill" stroke="none" fill="url(#gradient-8a8a8a-330675446)"><g><path d="M 30 22L 12 22L 13.5862 32.3043C 13.7363 33.2799 14.5758 34 15.5629 34L 26.4371 34C 27.4242 34 28.2637 33.2799 28.4139 32.3043L 30 22Z"></path></g></g></g><g id="g-root-cp_1_g-1_1d3n29o7k2rdb-fill" data-item-order="-441002" transform="translate(110, 404.7939453125)"><g id="cp_1_g-1_1d3n29o7k2rdb-fill" stroke="none" fill="url(#gradient-c3b321-14556876)"><g><path d="M 97.194 90.0414C 103.1819 81.5443 106 70.3136 106 58C 106 31.4903 84.5097 10 58 10C 31.4903 10 10 31.4903 10 58C 10 70.3137 12.8181 81.5443 18.806 90.0414C 28.0879 103.2127 42.3111 114.315 46 130L 47 134L 69 134L 70 130C 73.6889 114.315 87.9121 103.2127 97.194 90.0414Z"></path></g></g></g><g id="g-root-cp_-1_ground_2_148020s7k2sxt-fill" data-item-order="-440983" transform="translate(242.00042724609375, 604.001953125)"></g><g id="g-root-cp_-1_bucket_2_qn6fcs7k45xf-fill" data-item-order="-440972" transform="translate(315, 379.06005859375)"><g id="cp_-1_bucket_2_qn6fcs7k45xf-fill" stroke="none" fill="url(#gradient-8a8a8a-330675446)"><g><path d="M 30 22L 12 22L 13.5862 32.3043C 13.7363 33.2799 14.5758 34 15.5629 34L 26.4371 34C 27.4242 34 28.2637 33.2799 28.4139 32.3043L 30 22Z"></path></g></g></g><g id="g-root-cp_2_g-2_hrjf3w7k46q5-fill" data-item-order="-440966" transform="translate(278, 255.06005859375)"><g id="cp_2_g-2_hrjf3w7k46q5-fill" stroke="none" fill="url(#gradient-c67b35-424552419)"><g><path d="M 97.194 90.0414C 103.1819 81.5443 106 70.3136 106 58C 106 31.4903 84.5097 10 58 10C 31.4903 10 10 31.4903 10 58C 10 70.3137 12.8181 81.5443 18.806 90.0414C 28.0879 103.2127 42.3111 114.315 46 130L 47 134L 69 134L 70 130C 73.6889 114.315 87.9121 103.2127 97.194 90.0414Z"></path></g></g></g><g id="g-root-cp_-1_ground_3_4gpdto7k455b-fill" data-item-order="-440947" transform="translate(410, 604)"></g><g id="g-root-cp_-1_bucket_3_1um6fjw7k46ip-fill" data-item-order="-440934" transform="translate(483, 284.419921875)"><g id="cp_-1_bucket_3_1um6fjw7k46ip-fill" stroke="none" fill="url(#gradient-8a8a8a-330675446)"><g><path d="M 30 22L 12 22L 13.5862 32.3043C 13.7363 33.2799 14.5758 34 15.5629 34L 26.4371 34C 27.4242 34 28.2637 33.2799 28.4139 32.3043L 30 22Z"></path></g></g></g><g id="g-root-cp_3_g-3_1lqjfb07k47bf-fill" data-item-order="-440928" transform="translate(446, 160.419921875)"><defs><linearGradient id="gradient-8a8a8a-330675446" x2="0" y2="1"><stop offset="0" stop-color="#959595"></stop><stop offset="1" stop-color="#7f7f7f"></stop></linearGradient><linearGradient id="gradient-c3b321-14556876" x2="0" y2="1"><stop offset="0" stop-color="#ddc916"></stop><stop offset="1" stop-color="#a99c2c"></stop></linearGradient><linearGradient id="gradient-c67b35-424552419" x2="0" y2="1"><stop offset="0" stop-color="#dc8331"></stop><stop offset="1" stop-color="#b07239"></stop></linearGradient><linearGradient id="gradient-d5514c-497200298" x2="0" y2="1"><stop offset="0" stop-color="#e45752"></stop><stop offset="1" stop-color="#c54a46"></stop></linearGradient></defs><g id="cp_3_g-3_1lqjfb07k47bf-fill" stroke="none" fill="url(#gradient-d5514c-497200298)"><g><path d="M 97.194 90.0414C 103.1819 81.5443 106 70.3136 106 58C 106 31.4903 84.5097 10 58 10C 31.4903 10 10 31.4903 10 58C 10 70.3137 12.8181 81.5443 18.806 90.0414C 28.0879 103.2127 42.3111 114.315 46 130L 47 134L 69 134L 70 130C 73.6889 114.315 87.9121 103.2127 97.194 90.0414Z"></path></g></g></g><g id="g-root-tx_50_1uo1ut87k45j4-fill" data-item-order="0" transform="translate(38, 350)"><g id="tx_50_1uo1ut87k45j4-fill" stroke="none" fill="#f4f4f4"><g><text style="font: 15px &quot;Roboto&quot;, sans-serif; white-space: pre;" font-size="15px" font-family="'Roboto', sans-serif"><tspan x="12" y="31" dominant-baseline="ideographic">50%</tspan></text></g></g></g><g id="g-root-tx_187_4jtr987k46bv-fill" data-item-order="0" transform="translate(116, 360.7939453125)"><g id="tx_187_4jtr987k46bv-fill" stroke="none" fill="#ffe711"><g><text style="font: bold 25px &quot;Roboto&quot;, sans-serif; white-space: pre;" font-weight="bold" font-size="25px" font-family="'Roboto', sans-serif"><tspan x="17.61" y="43.5" dominant-baseline="ideographic">18.7%</tspan></text></g></g></g><g id="g-root-ic_circ_146r3uk7k44y0-fill" data-item-order="0" transform="translate(302, 282.06005859375)"></g><g id="g-root-tx_75_141rb5o7k45j5-fill" data-item-order="0" transform="translate(38, 266)"><g id="tx_75_141rb5o7k45j5-fill" stroke="none" fill="#f4f4f4"><g><text style="font: 15px &quot;Roboto&quot;, sans-serif; white-space: pre;" font-size="15px" font-family="'Roboto', sans-serif"><tspan x="12" y="31" dominant-baseline="ideographic">75%</tspan></text></g></g></g><g id="g-root-tx_25_4hybzw7k47bj-fill" data-item-order="0" transform="translate(38, 434)"><g id="tx_25_4hybzw7k47bj-fill" stroke="none" fill="#f4f4f4"><g><text style="font: 15px &quot;Roboto&quot;, sans-serif; white-space: pre;" font-size="15px" font-family="'Roboto', sans-serif"><tspan x="12" y="31" dominant-baseline="ideographic">25%</tspan></text></g></g></g><g id="g-root-ic_codi_1cyn9ks7k464s-fill" data-item-order="0" transform="translate(134, 431.7939453125)"></g><g id="g-root-tx_0_hteud87k45qm-fill" data-item-order="0" transform="translate(50, 518)"><g id="tx_0_hteud87k45qm-fill" stroke="none" fill="#f4f4f4"><g><text style="font: 15px &quot;Roboto&quot;, sans-serif; white-space: pre;" font-size="15px" font-family="'Roboto', sans-serif"><tspan x="12" y="31" dominant-baseline="ideographic">0%</tspan></text></g></g></g><g id="g-root-tx_63_1lxen987k45qn-fill" data-item-order="0" transform="translate(296, 211.06005859375)"><g id="tx_63_1lxen987k45qn-fill" stroke="none" fill="#f79438"><g><text style="font: bold 25px &quot;Roboto&quot;, sans-serif; white-space: pre;" font-weight="bold" font-size="25px" font-family="'Roboto', sans-serif"><tspan x="16.41" y="43.5" dominant-baseline="ideographic">63%</tspan></text></g></g></g><g id="g-root-ic_arro_v48vng7k5lhg-fill" data-item-order="0" transform="translate(470, 187.419921875)"></g><g id="g-root-tx_100_qqassc7k4742-fill" data-item-order="0" transform="translate(26, 182)"><g id="tx_100_qqassc7k4742-fill" stroke="none" fill="#f4f4f4"><g><text style="font: 15px &quot;Roboto&quot;, sans-serif; white-space: pre;" font-size="15px" font-family="'Roboto', sans-serif"><tspan x="12" y="31" dominant-baseline="ideographic">100%</tspan></text></g></g></g><g id="g-root-tx__me856k7k4552-fill" data-item-order="0" transform="translate(86, 724)"><g id="tx__me856k7k4552-fill" stroke="none" fill="#f4f4f4"><g><text style="font: 15px &quot;Roboto&quot;, sans-serif; white-space: pre;" font-size="15px" font-family="'Roboto', sans-serif"><tspan x="18.45" y="31" dominant-baseline="ideographic">Average number of </tspan><tspan x="46.18" y="49" dominant-baseline="ideographic">projects at </tspan><tspan x="12.45" y="67" dominant-baseline="ideographic">hackathons from the </tspan><tspan x="47.23" y="85" dominant-baseline="ideographic">number of </tspan><tspan x="41.75" y="103" dominant-baseline="ideographic">participants</tspan></text></g></g></g><g id="g-root-tx__18fpe0s7k45ql-fill" data-item-order="0" transform="translate(140, 38)"><g id="tx__18fpe0s7k45ql-fill" stroke="none" fill="#f4f4f4"><g><text style="font: 20px &quot;Roboto&quot;, sans-serif; white-space: pre;" font-size="20px" font-family="'Roboto', sans-serif"><tspan x="15.7" y="34" dominant-baseline="ideographic">Efficiency of teams at hackathons</tspan></text></g></g></g><g id="g-root-tx__144vol87k45xp-fill" data-item-order="0" transform="translate(104, 640)"><g id="tx__144vol87k45xp-fill" stroke="none" fill="#ffe711"><g><text style="font: bold 20px &quot;Roboto&quot;, sans-serif; white-space: pre;" font-weight="bold" font-size="20px" font-family="'Roboto', sans-serif"><tspan x="24.67" y="34" dominant-baseline="ideographic">Average </tspan><tspan x="15.27" y="58" dominant-baseline="ideographic">number of </tspan><tspan x="25.02" y="82" dominant-baseline="ideographic">projects</tspan></text></g></g></g><g id="g-root-tx__qn6fcs7k5k3l-fill" data-item-order="0" transform="translate(278, 640)"><g id="tx__qn6fcs7k5k3l-fill" stroke="none" fill="#f79438"><g><text style="font: bold 20px &quot;Roboto&quot;, sans-serif; white-space: pre;" font-weight="bold" font-size="20px" font-family="'Roboto', sans-serif"><tspan x="18.31" y="34" dominant-baseline="ideographic">Working </tspan><tspan x="12.41" y="58" dominant-baseline="ideographic">prototype </tspan><tspan x="19.03" y="82" dominant-baseline="ideographic">projects</tspan></text></g></g></g><g id="g-root-tx__dgppoc7k5l39-fill" data-item-order="0" transform="translate(434, 640)"><g id="tx__dgppoc7k5l39-fill" stroke="none" fill="#fb6762"><g><text style="font: bold 20px &quot;Roboto&quot;, sans-serif; white-space: pre;" font-weight="bold" font-size="20px" font-family="'Roboto', sans-serif"><tspan x="37.22" y="34" dominant-baseline="ideographic">Teams </tspan><tspan x="28.45" y="58" dominant-baseline="ideographic">finishing </tspan><tspan x="17.28" y="82" dominant-baseline="ideographic">projects on </tspan><tspan x="47.42" y="106" dominant-baseline="ideographic">time</tspan></text></g></g></g><g id="g-root-tx_91_1cviw587k5j4b-fill" data-item-order="0" transform="translate(464, 116.419921875)"><g id="tx_91_1cviw587k5j4b-fill" stroke="none" fill="#fb6762"><g><text style="font: bold 25px &quot;Roboto&quot;, sans-serif; white-space: pre;" font-weight="bold" font-size="25px" font-family="'Roboto', sans-serif"><tspan x="16.41" y="43.5" dominant-baseline="ideographic">91%</tspan></text></g></g></g><g id="g-root-cp_-1_lines_4otjy47k2rk9-stroke" data-item-order="-441025" transform="translate(74, 194)"><g id="cp_-1_lines_4otjy47k2rk9-stroke" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke="#f4f4f4" stroke-width="2" stroke-dasharray="5.0, 7.0"><g><path d="M 514 10L 10 10M 514 94L 10 94M 514 178L 10 178M 514 262L 10 262M 514 346L 10 346"></path></g></g></g><g id="g-root-cp_-1_ground_1_901to7k2scj-stroke" data-item-order="-441019" transform="translate(74, 604)"><g id="cp_-1_ground_1_901to7k2scj-stroke" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke="#f4f4f4" stroke-width="2"><g><path d="M 44 22C 44 22 44.0021 21.9852 44.0056 21.9567C 44 21.9852 44 22 44 22ZM 178 22L 50 22C 50 22 47 21.6757 47 19.7297C 44.3703 20.8669 44.0457 21.7548 44.0056 21.9567C 44.0806 21.3589 44.818 14.7173 41 11.6216C 42 19.0811 38 22 38 22L 34 22C 34 22 32 21.3514 31 17.7838C 29 19.7297 29 22 29 22C 29 22 24 17.1351 25 10C 20 13.5676 22 22 22 22C 22 22 21 20.3784 18.5 18.7568C 18.5 21.027 15.5 22 15.5 22L 10 22"></path></g></g></g><g id="g-root-cp_-1_bucket_1_1lza2ik7k2qkl-stroke" data-item-order="-441008" transform="translate(147, 528.7939453125)"><g id="cp_-1_bucket_1_1lza2ik7k2qkl-stroke" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke="#f4f4f4" stroke-width="2"><g><path d="M 30 22L 21 22L 12 22L 13.5861 32.3043C 13.7363 33.2799 14.5758 34 15.5629 34L 26.4371 34C 27.4242 34 28.2637 33.2799 28.4139 32.3043L 30 22ZM 12 22L 10 10M 30 22L 31.999 10M 21 22L 21 10"></path></g></g></g><g id="g-root-cp_1_g-1_1d3n29o7k2rdb-stroke" data-item-order="-441002" transform="translate(110, 404.7939453125)"><g id="cp_1_g-1_1d3n29o7k2rdb-stroke" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke="#f4f4f4" stroke-width="2"><g><path d="M 97.194 90.0414C 103.1819 81.5443 106 70.3136 106 58C 106 31.4903 84.5097 10 58 10C 77.8822 10 94 31.4903 94 58C 94 68.683 92.4092 78.5509 89.0552 86.5258C 82.8583 101.2602 69.7766 114.2585 67 130L 70 130C 73.6889 114.3147 87.9121 103.2127 97.194 90.0414ZM 58 10C 31.4903 10 10 31.4903 10 58C 10 70.3137 12.8181 81.5443 18.806 90.0414C 28.0879 103.2127 42.3111 114.3147 46 130L 49 130C 46.2234 114.2585 33.1417 101.2602 26.9448 86.5257C 23.5908 78.5509 22 68.683 22 58C 22 31.4903 38.1177 10 58 10ZM 70 130L 69 134L 47 134L 46 130M 67 130L 61.75 130M 54.25 130L 61.75 130M 54.25 130C 53.4251 118.7754 49.9044 107.3347 47.152 96M 54.25 130L 49 130M 61.75 130C 62.5749 118.7754 66.0956 107.3347 68.848 96M 68.5882 24C 65.8752 15.3483 62.1328 10 58 10C 53.8672 10 50.1248 15.3483 47.4118 24"></path></g></g></g><g id="g-root-cp_-1_ground_2_148020s7k2sxt-stroke" data-item-order="-440983" transform="translate(242.00042724609375, 604.001953125)"><g id="cp_-1_ground_2_148020s7k2sxt-stroke" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke="#f4f4f4" stroke-width="2"><g><path d="M 177.999999 21.998041L 37.547799 21.998041C 37.547799 21.998041 39.047799 18.754841 35.047799 17.457541C 36.547799 19.727741 33.047799 21.998041 33.047799 21.998041L 25.047799 21.998041C 25.047799 21.998041 23.128199 14.728441 25.047799 9.999841C 20.118799 13.725341 19.547799 21.998041 19.547799 21.998041C 19.547799 21.998041 19.547799 19.727741 16.047799 18.754841C 17.047799 20.700741 15.547799 21.998041 15.547799 21.998041L 9.999999 21.998041"></path></g></g></g><g id="g-root-cp_-1_bucket_2_qn6fcs7k45xf-stroke" data-item-order="-440972" transform="translate(315, 379.06005859375)"><g id="cp_-1_bucket_2_qn6fcs7k45xf-stroke" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke="#f4f4f4" stroke-width="2"><g><path d="M 30 22L 21 22L 12 22L 13.5861 32.3043C 13.7363 33.2799 14.5758 34 15.5629 34L 26.4371 34C 27.4242 34 28.2637 33.2799 28.4139 32.3043L 30 22ZM 12 22L 10 10M 30 22L 31.999 10M 21 22L 21 10"></path></g></g></g><g id="g-root-cp_2_g-2_hrjf3w7k46q5-stroke" data-item-order="-440966" transform="translate(278, 255.06005859375)"><g id="cp_2_g-2_hrjf3w7k46q5-stroke" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke="#f4f4f4" stroke-width="2"><g><path d="M 97.194 90.0414C 103.1819 81.5443 106 70.3136 106 58C 106 31.4903 84.5097 10 58 10C 77.8822 10 94 31.4903 94 58C 94 68.683 92.4092 78.5509 89.0552 86.5258C 82.8583 101.2602 69.7766 114.2585 67 130L 70 130C 73.6889 114.3147 87.9121 103.2127 97.194 90.0414ZM 58 10C 31.4903 10 10 31.4903 10 58C 10 70.3137 12.8181 81.5443 18.806 90.0414C 28.0879 103.2127 42.3111 114.3147 46 130L 49 130C 46.2234 114.2585 33.1417 101.2602 26.9448 86.5257C 23.5908 78.5509 22 68.683 22 58C 22 31.4903 38.1177 10 58 10ZM 70 130L 69 134L 47 134L 46 130M 67 130L 61.75 130M 54.25 130L 61.75 130M 54.25 130C 53.4251 118.7754 49.9044 107.3347 47.152 96M 54.25 130L 49 130M 61.75 130C 62.5749 118.7754 66.0956 107.3347 68.848 96M 68.5882 24C 65.8752 15.3483 62.1328 10 58 10C 53.8672 10 50.1248 15.3483 47.4118 24"></path></g></g></g><g id="g-root-cp_-1_ground_3_4gpdto7k455b-stroke" data-item-order="-440947" transform="translate(410, 604)"><g id="cp_-1_ground_3_4gpdto7k455b-stroke" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke="#f4f4f4" stroke-width="2"><g><path d="M 178 21.9999L 37.5459 21.9999C 37.5459 21.9999 39.0459 19.4053 35.0459 17.7837C 35.0459 20.3783 33.5459 21.9999 32.0459 21.9999C 30.5459 21.9999 27.0459 19.4053 28.0459 16.8107C 25.0459 18.7567 23.5459 21.9999 23.5459 21.9999C 23.5459 21.9999 26.5459 14.8649 18.5459 10C 22.7537 17.4595 17.0459 21.9999 17.0459 21.9999L 10 21.9999"></path></g></g></g><g id="g-root-cp_-1_bucket_3_1um6fjw7k46ip-stroke" data-item-order="-440934" transform="translate(483, 284.419921875)"><g id="cp_-1_bucket_3_1um6fjw7k46ip-stroke" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke="#f4f4f4" stroke-width="2"><g><path d="M 30 22L 21 22L 12 22L 13.5861 32.3043C 13.7363 33.2799 14.5758 34 15.5629 34L 26.4371 34C 27.4242 34 28.2637 33.2799 28.4139 32.3043L 30 22ZM 12 22L 10 10M 30 22L 31.999 10M 21 22L 21 10"></path></g></g></g><g id="g-root-cp_3_g-3_1lqjfb07k47bf-stroke" data-item-order="-440928" transform="translate(446, 160.419921875)"><g id="cp_3_g-3_1lqjfb07k47bf-stroke" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke="#f4f4f4" stroke-width="2"><g><path d="M 97.194 90.0414C 103.1819 81.5443 106 70.3136 106 58C 106 31.4903 84.5097 10 58 10C 77.8822 10 94 31.4903 94 58C 94 68.683 92.4092 78.5509 89.0552 86.5258C 82.8583 101.2602 69.7766 114.2585 67 130L 70 130C 73.6889 114.3147 87.9121 103.2127 97.194 90.0414ZM 58 10C 31.4903 10 10 31.4903 10 58C 10 70.3137 12.8181 81.5443 18.806 90.0414C 28.0879 103.2127 42.3111 114.3147 46 130L 49 130C 46.2234 114.2585 33.1417 101.2602 26.9448 86.5257C 23.5908 78.5509 22 68.683 22 58C 22 31.4903 38.1177 10 58 10ZM 70 130L 69 134L 47 134L 46 130M 67 130L 61.75 130M 54.25 130L 61.75 130M 54.25 130C 53.4251 118.7754 49.9044 107.3347 47.152 96M 54.25 130L 49 130M 61.75 130C 62.5749 118.7754 66.0956 107.3347 68.848 96M 68.5882 24C 65.8752 15.3483 62.1328 10 58 10C 53.8672 10 50.1248 15.3483 47.4118 24"></path></g></g></g><g id="g-root-tx_50_1uo1ut87k45j4-stroke" data-item-order="0" transform="translate(38, 350)"></g><g id="g-root-tx_187_4jtr987k46bv-stroke" data-item-order="0" transform="translate(116, 360.7939453125)"></g><g id="g-root-ic_circ_146r3uk7k44y0-stroke" data-item-order="0" transform="translate(302, 282.06005859375)"><g id="ic_circ_146r3uk7k44y0-stroke" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke="#f4f4f4" stroke-width="2"><g><path d="M 11.714286 34C 11.714287 46.308064 21.69194 56.285713 34 56.285713C 46.308064 56.285713 56.285713 46.308064 56.285713 34C 56.285713 21.69194 46.308064 11.714287 34 11.714287C 21.69194 11.714287 11.714287 21.69194 11.714287 34M 25.428572 42.57143L 42.57143 25.428572M 25.428572 27.142857C 25.428572 28.089632 26.196083 28.857143 27.142857 28.857143C 28.089632 28.857143 28.857143 28.089632 28.857143 27.142857C 28.857143 26.196083 28.089632 25.428572 27.142857 25.428572C 26.196083 25.428572 25.428572 26.196083 25.428572 27.142857M 39.142857 40.857143C 39.142857 41.803917 39.91037 42.57143 40.857143 42.57143C 41.803917 42.57143 42.57143 41.803917 42.57143 40.857143C 42.57143 39.91037 41.803917 39.142857 40.857143 39.142857C 39.91037 39.142857 39.142857 39.91037 39.142857 40.857143"></path></g></g></g><g id="g-root-tx_75_141rb5o7k45j5-stroke" data-item-order="0" transform="translate(38, 266)"></g><g id="g-root-tx_25_4hybzw7k47bj-stroke" data-item-order="0" transform="translate(38, 434)"></g><g id="g-root-ic_codi_1cyn9ks7k464s-stroke" data-item-order="0" transform="translate(134, 431.7939453125)"><g id="ic_codi_1cyn9ks7k464s-stroke" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke="#f4f4f4" stroke-width="2"><g><path d="M 37 47C 37 52.522846 41.477154 57 47 57C 52.522846 57 57 52.522846 57 47C 57 41.477154 52.522846 37 47 37C 41.477154 37 37 41.477154 37 47ZM 10 10M 49 44L 52 47L 49 50M 45 44L 42 47L 45 50M 11 37C 11.019445 35.143372 11.403379 33.308643 12.13 31.6C 12.93 30 16.256001 28.9 20.436001 27.351999C 21.566 26.934 21.380001 23.984001 20.880001 23.431999C 19.268551 21.685833 18.479071 19.334854 18.709999 16.969999C 18.565205 15.46426 19.052738 13.966075 20.055944 12.833911C 21.059151 11.701747 22.487778 11.037463 24 11C 25.512222 11.037463 26.940847 11.701747 27.944054 12.833911C 28.947262 13.966075 29.434793 15.46426 29.289999 16.969999C 29.521515 19.335524 28.731993 21.687351 27.119999 23.433998C 26.620001 23.986 26.434 26.936001 27.563999 27.354C 31.743999 28.902 35.071999 30.007999 35.870003 31.601999C 36.596619 33.310646 36.980553 35.14537 37 37.001999ZM 31.823999 11.474C 32.506039 11.159061 33.248764 10.997273 34 11C 35.512222 11.037463 36.940849 11.701747 37.944054 12.833911C 38.947262 13.966075 39.434792 15.46426 39.290001 16.969999C 39.521515 19.335524 38.731995 21.687351 37.119999 23.433998C 36.620003 23.986 36.433998 26.936001 37.563999 27.354C 41.743999 28.902 45.071999 30.007999 45.869999 31.601999C 45.93 31.724001 45.987999 31.85 46.043999 31.976"></path></g></g></g><g id="g-root-tx_0_hteud87k45qm-stroke" data-item-order="0" transform="translate(50, 518)"></g><g id="g-root-tx_63_1lxen987k45qn-stroke" data-item-order="0" transform="translate(296, 211.06005859375)"></g><g id="g-root-ic_arro_v48vng7k5lhg-stroke" data-item-order="0" transform="translate(470, 187.419921875)"><g id="ic_arro_v48vng7k5lhg-stroke" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke="#f4f4f4" stroke-width="2"><g><path d="M 44.066002 44C 44.065998 46.300819 45.931183 48.166 48.231998 48.166C 50.532818 48.166 52.397999 46.300819 52.397999 44C 52.397999 41.699181 50.532818 39.834 48.231998 39.834C 45.931183 39.834 44.065998 41.699181 44.065998 44M 45.453999 56.5L 56.563999 56.5C 55.899048 53.89912 54.057701 51.757942 51.585693 50.711067C 49.113686 49.664192 46.294624 49.831722 43.964001 51.164001M 15.602 44C 15.602 46.300819 17.467182 48.166 19.768 48.166C 22.068817 48.166 23.934 46.300819 23.934 44C 23.934 41.699181 22.068817 39.834 19.768 39.834C 17.467182 39.834 15.602 41.699181 15.602 44M 22.487999 56.5L 11.436 56.5C 12.098295 53.912041 13.925614 51.778793 16.381168 50.726917C 18.836721 49.675037 21.641655 49.823986 23.972 51.130005M 44.158001 56.5C 44.209476 52.827229 42.279564 49.411205 39.107155 47.559803C 35.934746 45.708397 32.011253 45.708397 28.838844 47.559803C 25.666435 49.411205 23.736523 52.827229 23.787998 56.499996ZM 28.684 34.461998C 31.572502 37.455845 36.012802 38.348686 39.834 36.704002M 27.85 37.517998C 27.85 40.841652 30.544352 43.536003 33.868004 43.536003C 37.19165 43.536003 39.886002 40.841652 39.886002 37.518002C 39.886002 34.194351 37.19165 31.500002 33.868004 31.500002C 30.544352 31.500002 27.85 34.194351 27.85 37.518002M 46.972 35.5C 46.972 35.5 40.972 29.5 40.972 24.5L 49.972 24.5L 33.972 11.5L 17.972 24.5L 26.972 24.5C 26.972 29.5 20.972 35.5 20.972 35.5"></path></g></g></g><g id="g-root-tx_100_qqassc7k4742-stroke" data-item-order="0" transform="translate(26, 182)"></g><g id="g-root-tx__me856k7k4552-stroke" data-item-order="0" transform="translate(86, 724)"></g><g id="g-root-tx__18fpe0s7k45ql-stroke" data-item-order="0" transform="translate(140, 38)"></g><g id="g-root-tx__144vol87k45xp-stroke" data-item-order="0" transform="translate(104, 640)"></g><g id="g-root-tx__qn6fcs7k5k3l-stroke" data-item-order="0" transform="translate(278, 640)"></g><g id="g-root-tx__dgppoc7k5l39-stroke" data-item-order="0" transform="translate(434, 640)"></g><g id="g-root-tx_91_1cviw587k5j4b-stroke" data-item-order="0" transform="translate(464, 116.419921875)"></g></g></g></svg>
+<svg width="612" height="888" viewBox="0 0 612 888"
+    style="fill:none;stroke:none;fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"
+    version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style class="text-font-style fontImports" data-font-family="Roboto">
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=block');
+    </style>
+    <g id="items" style="isolation: isolate">
+        <g id="blend" style="mix-blend-mode: normal">
+            <g id="g-root-cp_-1_lines_4otjy47k2rk9-fill" data-item-order="-441025" transform="translate(74, 194)"></g>
+            <g id="g-root-cp_-1_ground_1_901to7k2scj-fill" data-item-order="-441019" transform="translate(74, 604)"></g>
+            <g id="g-root-cp_-1_bucket_1_1lza2ik7k2qkl-fill" data-item-order="-441008"
+                transform="translate(147, 528.7939453125)">
+                <g id="cp_-1_bucket_1_1lza2ik7k2qkl-fill" stroke="none" fill="url(#gradient-8a8a8a-330675446)">
+                    <g>
+                        <path
+                            d="M 30 22L 12 22L 13.5862 32.3043C 13.7363 33.2799 14.5758 34 15.5629 34L 26.4371 34C 27.4242 34 28.2637 33.2799 28.4139 32.3043L 30 22Z">
+                        </path>
+                    </g>
+                </g>
+            </g>
+            <g id="g-root-cp_1_g-1_1d3n29o7k2rdb-fill" data-item-order="-441002"
+                transform="translate(110, 404.7939453125)">
+                <g id="cp_1_g-1_1d3n29o7k2rdb-fill" stroke="none" fill="url(#gradient-c3b321-14556876)">
+                    <g>
+                        <path
+                            d="M 97.194 90.0414C 103.1819 81.5443 106 70.3136 106 58C 106 31.4903 84.5097 10 58 10C 31.4903 10 10 31.4903 10 58C 10 70.3137 12.8181 81.5443 18.806 90.0414C 28.0879 103.2127 42.3111 114.315 46 130L 47 134L 69 134L 70 130C 73.6889 114.315 87.9121 103.2127 97.194 90.0414Z">
+                        </path>
+                    </g>
+                </g>
+            </g>
+            <g id="g-root-cp_-1_ground_2_148020s7k2sxt-fill" data-item-order="-440983"
+                transform="translate(242.00042724609375, 604.001953125)"></g>
+            <g id="g-root-cp_-1_bucket_2_qn6fcs7k45xf-fill" data-item-order="-440972"
+                transform="translate(315, 379.06005859375)">
+                <g id="cp_-1_bucket_2_qn6fcs7k45xf-fill" stroke="none" fill="url(#gradient-8a8a8a-330675446)">
+                    <g>
+                        <path
+                            d="M 30 22L 12 22L 13.5862 32.3043C 13.7363 33.2799 14.5758 34 15.5629 34L 26.4371 34C 27.4242 34 28.2637 33.2799 28.4139 32.3043L 30 22Z">
+                        </path>
+                    </g>
+                </g>
+            </g>
+            <g id="g-root-cp_2_g-2_hrjf3w7k46q5-fill" data-item-order="-440966"
+                transform="translate(278, 255.06005859375)">
+                <g id="cp_2_g-2_hrjf3w7k46q5-fill" stroke="none" fill="url(#gradient-c67b35-424552419)">
+                    <g>
+                        <path
+                            d="M 97.194 90.0414C 103.1819 81.5443 106 70.3136 106 58C 106 31.4903 84.5097 10 58 10C 31.4903 10 10 31.4903 10 58C 10 70.3137 12.8181 81.5443 18.806 90.0414C 28.0879 103.2127 42.3111 114.315 46 130L 47 134L 69 134L 70 130C 73.6889 114.315 87.9121 103.2127 97.194 90.0414Z">
+                        </path>
+                    </g>
+                </g>
+            </g>
+            <g id="g-root-cp_-1_ground_3_4gpdto7k455b-fill" data-item-order="-440947" transform="translate(410, 604)">
+            </g>
+            <g id="g-root-cp_-1_bucket_3_1um6fjw7k46ip-fill" data-item-order="-440934"
+                transform="translate(483, 284.419921875)">
+                <g id="cp_-1_bucket_3_1um6fjw7k46ip-fill" stroke="none" fill="url(#gradient-8a8a8a-330675446)">
+                    <g>
+                        <path
+                            d="M 30 22L 12 22L 13.5862 32.3043C 13.7363 33.2799 14.5758 34 15.5629 34L 26.4371 34C 27.4242 34 28.2637 33.2799 28.4139 32.3043L 30 22Z">
+                        </path>
+                    </g>
+                </g>
+            </g>
+            <g id="g-root-cp_3_g-3_1lqjfb07k47bf-fill" data-item-order="-440928"
+                transform="translate(446, 160.419921875)">
+                <defs>
+                    <linearGradient id="gradient-8a8a8a-330675446" x2="0" y2="1">
+                        <stop offset="0" stop-color="#959595"></stop>
+                        <stop offset="1" stop-color="#7f7f7f"></stop>
+                    </linearGradient>
+                    <linearGradient id="gradient-c3b321-14556876" x2="0" y2="1">
+                        <stop offset="0" stop-color="#ddc916"></stop>
+                        <stop offset="1" stop-color="#a99c2c"></stop>
+                    </linearGradient>
+                    <linearGradient id="gradient-c67b35-424552419" x2="0" y2="1">
+                        <stop offset="0" stop-color="#dc8331"></stop>
+                        <stop offset="1" stop-color="#b07239"></stop>
+                    </linearGradient>
+                    <linearGradient id="gradient-d5514c-497200298" x2="0" y2="1">
+                        <stop offset="0" stop-color="#e45752"></stop>
+                        <stop offset="1" stop-color="#c54a46"></stop>
+                    </linearGradient>
+                </defs>
+                <g id="cp_3_g-3_1lqjfb07k47bf-fill" stroke="none" fill="url(#gradient-d5514c-497200298)">
+                    <g>
+                        <path
+                            d="M 97.194 90.0414C 103.1819 81.5443 106 70.3136 106 58C 106 31.4903 84.5097 10 58 10C 31.4903 10 10 31.4903 10 58C 10 70.3137 12.8181 81.5443 18.806 90.0414C 28.0879 103.2127 42.3111 114.315 46 130L 47 134L 69 134L 70 130C 73.6889 114.315 87.9121 103.2127 97.194 90.0414Z">
+                        </path>
+                    </g>
+                </g>
+            </g>
+            <g id="g-root-tx_50_1uo1ut87k45j4-fill" data-item-order="0" transform="translate(38, 350)">
+                <g id="tx_50_1uo1ut87k45j4-fill" stroke="none" fill="#000000">
+                    <g><text style="font: 15px &quot;Roboto&quot;, sans-serif; white-space: pre;" font-size="15px"
+                            font-family="'Roboto', sans-serif">
+                            <tspan x="12" y="31" dominant-baseline="ideographic">50%</tspan>
+                        </text></g>
+                </g>
+            </g>
+            <g id="g-root-tx_187_4jtr987k46bv-fill" data-item-order="0" transform="translate(116, 360.7939453125)">
+                <g id="tx_187_4jtr987k46bv-fill" stroke="none" fill="#ffe711">
+                    <g><text style="font: bold 25px &quot;Roboto&quot;, sans-serif; white-space: pre;"
+                            font-weight="bold" font-size="25px" font-family="'Roboto', sans-serif">
+                            <tspan x="17.61" y="43.5" dominant-baseline="ideographic">18.7%</tspan>
+                        </text></g>
+                </g>
+            </g>
+            <g id="g-root-ic_circ_146r3uk7k44y0-fill" data-item-order="0" transform="translate(302, 282.06005859375)">
+            </g>
+            <g id="g-root-tx_75_141rb5o7k45j5-fill" data-item-order="0" transform="translate(38, 266)">
+                <g id="tx_75_141rb5o7k45j5-fill" stroke="none" fill="#000000">
+                    <g><text style="font: 15px &quot;Roboto&quot;, sans-serif; white-space: pre;" font-size="15px"
+                            font-family="'Roboto', sans-serif">
+                            <tspan x="12" y="31" dominant-baseline="ideographic">75%</tspan>
+                        </text></g>
+                </g>
+            </g>
+            <g id="g-root-tx_25_4hybzw7k47bj-fill" data-item-order="0" transform="translate(38, 434)">
+                <g id="tx_25_4hybzw7k47bj-fill" stroke="none" fill="#000000">
+                    <g><text style="font: 15px &quot;Roboto&quot;, sans-serif; white-space: pre;" font-size="15px"
+                            font-family="'Roboto', sans-serif">
+                            <tspan x="12" y="31" dominant-baseline="ideographic">25%</tspan>
+                        </text></g>
+                </g>
+            </g>
+            <g id="g-root-ic_codi_1cyn9ks7k464s-fill" data-item-order="0" transform="translate(134, 431.7939453125)">
+            </g>
+            <g id="g-root-tx_0_hteud87k45qm-fill" data-item-order="0" transform="translate(50, 518)">
+                <g id="tx_0_hteud87k45qm-fill" stroke="none" fill="#000000">
+                    <g><text style="font: 15px &quot;Roboto&quot;, sans-serif; white-space: pre;" font-size="15px"
+                            font-family="'Roboto', sans-serif">
+                            <tspan x="12" y="31" dominant-baseline="ideographic">0%</tspan>
+                        </text></g>
+                </g>
+            </g>
+            <g id="g-root-tx_63_1lxen987k45qn-fill" data-item-order="0" transform="translate(296, 211.06005859375)">
+                <g id="tx_63_1lxen987k45qn-fill" stroke="none" fill="#f79438">
+                    <g><text style="font: bold 25px &quot;Roboto&quot;, sans-serif; white-space: pre;"
+                            font-weight="bold" font-size="25px" font-family="'Roboto', sans-serif">
+                            <tspan x="16.41" y="43.5" dominant-baseline="ideographic">63%</tspan>
+                        </text></g>
+                </g>
+            </g>
+            <g id="g-root-ic_arro_v48vng7k5lhg-fill" data-item-order="0" transform="translate(470, 187.419921875)"></g>
+            <g id="g-root-tx_100_qqassc7k4742-fill" data-item-order="0" transform="translate(26, 182)">
+                <g id="tx_100_qqassc7k4742-fill" stroke="none" fill="#000000">
+                    <g><text style="font: 15px &quot;Roboto&quot;, sans-serif; white-space: pre;" font-size="15px"
+                            font-family="'Roboto', sans-serif">
+                            <tspan x="12" y="31" dominant-baseline="ideographic">100%</tspan>
+                        </text></g>
+                </g>
+            </g>
+            <g id="g-root-tx__me856k7k4552-fill" data-item-order="0" transform="translate(86, 724)">
+                <g id="tx__me856k7k4552-fill" stroke="none" fill="#000000">
+                    <g><text style="font: 15px &quot;Roboto&quot;, sans-serif; white-space: pre;" font-size="15px"
+                            font-family="'Roboto', sans-serif">
+                            <tspan x="18.45" y="31" dominant-baseline="ideographic">Average number of </tspan>
+                            <tspan x="46.18" y="49" dominant-baseline="ideographic">projects at </tspan>
+                            <tspan x="12.45" y="67" dominant-baseline="ideographic">hackathons from the </tspan>
+                            <tspan x="47.23" y="85" dominant-baseline="ideographic">number of </tspan>
+                            <tspan x="41.75" y="103" dominant-baseline="ideographic">participants</tspan>
+                        </text></g>
+                </g>
+            </g>
+            <g id="g-root-tx__18fpe0s7k45ql-fill" data-item-order="0" transform="translate(140, 38)">
+                <g id="tx__18fpe0s7k45ql-fill" stroke="none" fill="#000000">
+                    <g><text style="font: 20px &quot;Roboto&quot;, sans-serif; white-space: pre;" font-size="20px"
+                            font-family="'Roboto', sans-serif">
+                            <tspan x="15.7" y="34" dominant-baseline="ideographic">Efficiency of teams at hackathons
+                            </tspan>
+                        </text></g>
+                </g>
+            </g>
+            <g id="g-root-tx__144vol87k45xp-fill" data-item-order="0" transform="translate(104, 640)">
+                <g id="tx__144vol87k45xp-fill" stroke="none" fill="#ffe711">
+                    <g><text style="font: bold 20px &quot;Roboto&quot;, sans-serif; white-space: pre;"
+                            font-weight="bold" font-size="20px" font-family="'Roboto', sans-serif">
+                            <tspan x="24.67" y="34" dominant-baseline="ideographic">Average </tspan>
+                            <tspan x="15.27" y="58" dominant-baseline="ideographic">number of </tspan>
+                            <tspan x="25.02" y="82" dominant-baseline="ideographic">projects</tspan>
+                        </text></g>
+                </g>
+            </g>
+            <g id="g-root-tx__qn6fcs7k5k3l-fill" data-item-order="0" transform="translate(278, 640)">
+                <g id="tx__qn6fcs7k5k3l-fill" stroke="none" fill="#f79438">
+                    <g><text style="font: bold 20px &quot;Roboto&quot;, sans-serif; white-space: pre;"
+                            font-weight="bold" font-size="20px" font-family="'Roboto', sans-serif">
+                            <tspan x="18.31" y="34" dominant-baseline="ideographic">Working </tspan>
+                            <tspan x="12.41" y="58" dominant-baseline="ideographic">prototype </tspan>
+                            <tspan x="19.03" y="82" dominant-baseline="ideographic">projects</tspan>
+                        </text></g>
+                </g>
+            </g>
+            <g id="g-root-tx__dgppoc7k5l39-fill" data-item-order="0" transform="translate(434, 640)">
+                <g id="tx__dgppoc7k5l39-fill" stroke="none" fill="#fb6762">
+                    <g><text style="font: bold 20px &quot;Roboto&quot;, sans-serif; white-space: pre;"
+                            font-weight="bold" font-size="20px" font-family="'Roboto', sans-serif">
+                            <tspan x="37.22" y="34" dominant-baseline="ideographic">Teams </tspan>
+                            <tspan x="28.45" y="58" dominant-baseline="ideographic">finishing </tspan>
+                            <tspan x="17.28" y="82" dominant-baseline="ideographic">projects on </tspan>
+                            <tspan x="47.42" y="106" dominant-baseline="ideographic">time</tspan>
+                        </text></g>
+                </g>
+            </g>
+            <g id="g-root-tx_91_1cviw587k5j4b-fill" data-item-order="0" transform="translate(464, 116.419921875)">
+                <g id="tx_91_1cviw587k5j4b-fill" stroke="none" fill="#fb6762">
+                    <g><text style="font: bold 25px &quot;Roboto&quot;, sans-serif; white-space: pre;"
+                            font-weight="bold" font-size="25px" font-family="'Roboto', sans-serif">
+                            <tspan x="16.41" y="43.5" dominant-baseline="ideographic">91%</tspan>
+                        </text></g>
+                </g>
+            </g>
+            <g id="g-root-cp_-1_lines_4otjy47k2rk9-stroke" data-item-order="-441025" transform="translate(74, 194)">
+                <g id="cp_-1_lines_4otjy47k2rk9-stroke" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-miterlimit="4" stroke="#000000" stroke-width="2" stroke-dasharray="5.0, 7.0">
+                    <g>
+                        <path d="M 514 10L 10 10M 514 94L 10 94M 514 178L 10 178M 514 262L 10 262M 514 346L 10 346">
+                        </path>
+                    </g>
+                </g>
+            </g>
+            <g id="g-root-cp_-1_ground_1_901to7k2scj-stroke" data-item-order="-441019" transform="translate(74, 604)">
+                <g id="cp_-1_ground_1_901to7k2scj-stroke" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-miterlimit="4" stroke="#000000" stroke-width="2">
+                    <g>
+                        <path
+                            d="M 44 22C 44 22 44.0021 21.9852 44.0056 21.9567C 44 21.9852 44 22 44 22ZM 178 22L 50 22C 50 22 47 21.6757 47 19.7297C 44.3703 20.8669 44.0457 21.7548 44.0056 21.9567C 44.0806 21.3589 44.818 14.7173 41 11.6216C 42 19.0811 38 22 38 22L 34 22C 34 22 32 21.3514 31 17.7838C 29 19.7297 29 22 29 22C 29 22 24 17.1351 25 10C 20 13.5676 22 22 22 22C 22 22 21 20.3784 18.5 18.7568C 18.5 21.027 15.5 22 15.5 22L 10 22">
+                        </path>
+                    </g>
+                </g>
+            </g>
+            <g id="g-root-cp_-1_bucket_1_1lza2ik7k2qkl-stroke" data-item-order="-441008"
+                transform="translate(147, 528.7939453125)">
+                <g id="cp_-1_bucket_1_1lza2ik7k2qkl-stroke" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-miterlimit="4" stroke="#f4f4f4" stroke-width="2">
+                    <g>
+                        <path
+                            d="M 30 22L 21 22L 12 22L 13.5861 32.3043C 13.7363 33.2799 14.5758 34 15.5629 34L 26.4371 34C 27.4242 34 28.2637 33.2799 28.4139 32.3043L 30 22ZM 12 22L 10 10M 30 22L 31.999 10M 21 22L 21 10">
+                        </path>
+                    </g>
+                </g>
+            </g>
+            <g id="g-root-cp_1_g-1_1d3n29o7k2rdb-stroke" data-item-order="-441002"
+                transform="translate(110, 404.7939453125)">
+                <g id="cp_1_g-1_1d3n29o7k2rdb-stroke" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-miterlimit="4" stroke="#f4f4f4" stroke-width="2">
+                    <g>
+                        <path
+                            d="M 97.194 90.0414C 103.1819 81.5443 106 70.3136 106 58C 106 31.4903 84.5097 10 58 10C 77.8822 10 94 31.4903 94 58C 94 68.683 92.4092 78.5509 89.0552 86.5258C 82.8583 101.2602 69.7766 114.2585 67 130L 70 130C 73.6889 114.3147 87.9121 103.2127 97.194 90.0414ZM 58 10C 31.4903 10 10 31.4903 10 58C 10 70.3137 12.8181 81.5443 18.806 90.0414C 28.0879 103.2127 42.3111 114.3147 46 130L 49 130C 46.2234 114.2585 33.1417 101.2602 26.9448 86.5257C 23.5908 78.5509 22 68.683 22 58C 22 31.4903 38.1177 10 58 10ZM 70 130L 69 134L 47 134L 46 130M 67 130L 61.75 130M 54.25 130L 61.75 130M 54.25 130C 53.4251 118.7754 49.9044 107.3347 47.152 96M 54.25 130L 49 130M 61.75 130C 62.5749 118.7754 66.0956 107.3347 68.848 96M 68.5882 24C 65.8752 15.3483 62.1328 10 58 10C 53.8672 10 50.1248 15.3483 47.4118 24">
+                        </path>
+                    </g>
+                </g>
+            </g>
+            <g id="g-root-cp_-1_ground_2_148020s7k2sxt-stroke" data-item-order="-440983"
+                transform="translate(242.00042724609375, 604.001953125)">
+                <g id="cp_-1_ground_2_148020s7k2sxt-stroke" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-miterlimit="4" stroke="#000000" stroke-width="2">
+                    <g>
+                        <path
+                            d="M 177.999999 21.998041L 37.547799 21.998041C 37.547799 21.998041 39.047799 18.754841 35.047799 17.457541C 36.547799 19.727741 33.047799 21.998041 33.047799 21.998041L 25.047799 21.998041C 25.047799 21.998041 23.128199 14.728441 25.047799 9.999841C 20.118799 13.725341 19.547799 21.998041 19.547799 21.998041C 19.547799 21.998041 19.547799 19.727741 16.047799 18.754841C 17.047799 20.700741 15.547799 21.998041 15.547799 21.998041L 9.999999 21.998041">
+                        </path>
+                    </g>
+                </g>
+            </g>
+            <g id="g-root-cp_-1_bucket_2_qn6fcs7k45xf-stroke" data-item-order="-440972"
+                transform="translate(315, 379.06005859375)">
+                <g id="cp_-1_bucket_2_qn6fcs7k45xf-stroke" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-miterlimit="4" stroke="#f4f4f4" stroke-width="2">
+                    <g>
+                        <path
+                            d="M 30 22L 21 22L 12 22L 13.5861 32.3043C 13.7363 33.2799 14.5758 34 15.5629 34L 26.4371 34C 27.4242 34 28.2637 33.2799 28.4139 32.3043L 30 22ZM 12 22L 10 10M 30 22L 31.999 10M 21 22L 21 10">
+                        </path>
+                    </g>
+                </g>
+            </g>
+            <g id="g-root-cp_2_g-2_hrjf3w7k46q5-stroke" data-item-order="-440966"
+                transform="translate(278, 255.06005859375)">
+                <g id="cp_2_g-2_hrjf3w7k46q5-stroke" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-miterlimit="4" stroke="#f4f4f4" stroke-width="2">
+                    <g>
+                        <path
+                            d="M 97.194 90.0414C 103.1819 81.5443 106 70.3136 106 58C 106 31.4903 84.5097 10 58 10C 77.8822 10 94 31.4903 94 58C 94 68.683 92.4092 78.5509 89.0552 86.5258C 82.8583 101.2602 69.7766 114.2585 67 130L 70 130C 73.6889 114.3147 87.9121 103.2127 97.194 90.0414ZM 58 10C 31.4903 10 10 31.4903 10 58C 10 70.3137 12.8181 81.5443 18.806 90.0414C 28.0879 103.2127 42.3111 114.3147 46 130L 49 130C 46.2234 114.2585 33.1417 101.2602 26.9448 86.5257C 23.5908 78.5509 22 68.683 22 58C 22 31.4903 38.1177 10 58 10ZM 70 130L 69 134L 47 134L 46 130M 67 130L 61.75 130M 54.25 130L 61.75 130M 54.25 130C 53.4251 118.7754 49.9044 107.3347 47.152 96M 54.25 130L 49 130M 61.75 130C 62.5749 118.7754 66.0956 107.3347 68.848 96M 68.5882 24C 65.8752 15.3483 62.1328 10 58 10C 53.8672 10 50.1248 15.3483 47.4118 24">
+                        </path>
+                    </g>
+                </g>
+            </g>
+            <g id="g-root-cp_-1_ground_3_4gpdto7k455b-stroke" data-item-order="-440947" transform="translate(410, 604)">
+                <g id="cp_-1_ground_3_4gpdto7k455b-stroke" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-miterlimit="4" stroke="#000000" stroke-width="2">
+                    <g>
+                        <path
+                            d="M 178 21.9999L 37.5459 21.9999C 37.5459 21.9999 39.0459 19.4053 35.0459 17.7837C 35.0459 20.3783 33.5459 21.9999 32.0459 21.9999C 30.5459 21.9999 27.0459 19.4053 28.0459 16.8107C 25.0459 18.7567 23.5459 21.9999 23.5459 21.9999C 23.5459 21.9999 26.5459 14.8649 18.5459 10C 22.7537 17.4595 17.0459 21.9999 17.0459 21.9999L 10 21.9999">
+                        </path>
+                    </g>
+                </g>
+            </g>
+            <g id="g-root-cp_-1_bucket_3_1um6fjw7k46ip-stroke" data-item-order="-440934"
+                transform="translate(483, 284.419921875)">
+                <g id="cp_-1_bucket_3_1um6fjw7k46ip-stroke" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-miterlimit="4" stroke="#f4f4f4" stroke-width="2">
+                    <g>
+                        <path
+                            d="M 30 22L 21 22L 12 22L 13.5861 32.3043C 13.7363 33.2799 14.5758 34 15.5629 34L 26.4371 34C 27.4242 34 28.2637 33.2799 28.4139 32.3043L 30 22ZM 12 22L 10 10M 30 22L 31.999 10M 21 22L 21 10">
+                        </path>
+                    </g>
+                </g>
+            </g>
+            <g id="g-root-cp_3_g-3_1lqjfb07k47bf-stroke" data-item-order="-440928"
+                transform="translate(446, 160.419921875)">
+                <g id="cp_3_g-3_1lqjfb07k47bf-stroke" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-miterlimit="4" stroke="#f4f4f4" stroke-width="2">
+                    <g>
+                        <path
+                            d="M 97.194 90.0414C 103.1819 81.5443 106 70.3136 106 58C 106 31.4903 84.5097 10 58 10C 77.8822 10 94 31.4903 94 58C 94 68.683 92.4092 78.5509 89.0552 86.5258C 82.8583 101.2602 69.7766 114.2585 67 130L 70 130C 73.6889 114.3147 87.9121 103.2127 97.194 90.0414ZM 58 10C 31.4903 10 10 31.4903 10 58C 10 70.3137 12.8181 81.5443 18.806 90.0414C 28.0879 103.2127 42.3111 114.3147 46 130L 49 130C 46.2234 114.2585 33.1417 101.2602 26.9448 86.5257C 23.5908 78.5509 22 68.683 22 58C 22 31.4903 38.1177 10 58 10ZM 70 130L 69 134L 47 134L 46 130M 67 130L 61.75 130M 54.25 130L 61.75 130M 54.25 130C 53.4251 118.7754 49.9044 107.3347 47.152 96M 54.25 130L 49 130M 61.75 130C 62.5749 118.7754 66.0956 107.3347 68.848 96M 68.5882 24C 65.8752 15.3483 62.1328 10 58 10C 53.8672 10 50.1248 15.3483 47.4118 24">
+                        </path>
+                    </g>
+                </g>
+            </g>
+            <g id="g-root-tx_50_1uo1ut87k45j4-stroke" data-item-order="0" transform="translate(38, 350)"></g>
+            <g id="g-root-tx_187_4jtr987k46bv-stroke" data-item-order="0" transform="translate(116, 360.7939453125)">
+            </g>
+            <g id="g-root-ic_circ_146r3uk7k44y0-stroke" data-item-order="0" transform="translate(302, 282.06005859375)">
+                <g id="ic_circ_146r3uk7k44y0-stroke" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-miterlimit="4" stroke="#f4f4f4" stroke-width="2">
+                    <g>
+                        <path
+                            d="M 11.714286 34C 11.714287 46.308064 21.69194 56.285713 34 56.285713C 46.308064 56.285713 56.285713 46.308064 56.285713 34C 56.285713 21.69194 46.308064 11.714287 34 11.714287C 21.69194 11.714287 11.714287 21.69194 11.714287 34M 25.428572 42.57143L 42.57143 25.428572M 25.428572 27.142857C 25.428572 28.089632 26.196083 28.857143 27.142857 28.857143C 28.089632 28.857143 28.857143 28.089632 28.857143 27.142857C 28.857143 26.196083 28.089632 25.428572 27.142857 25.428572C 26.196083 25.428572 25.428572 26.196083 25.428572 27.142857M 39.142857 40.857143C 39.142857 41.803917 39.91037 42.57143 40.857143 42.57143C 41.803917 42.57143 42.57143 41.803917 42.57143 40.857143C 42.57143 39.91037 41.803917 39.142857 40.857143 39.142857C 39.91037 39.142857 39.142857 39.91037 39.142857 40.857143">
+                        </path>
+                    </g>
+                </g>
+            </g>
+            <g id="g-root-tx_75_141rb5o7k45j5-stroke" data-item-order="0" transform="translate(38, 266)"></g>
+            <g id="g-root-tx_25_4hybzw7k47bj-stroke" data-item-order="0" transform="translate(38, 434)"></g>
+            <g id="g-root-ic_codi_1cyn9ks7k464s-stroke" data-item-order="0" transform="translate(134, 431.7939453125)">
+                <g id="ic_codi_1cyn9ks7k464s-stroke" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-miterlimit="4" stroke="#f4f4f4" stroke-width="2">
+                    <g>
+                        <path
+                            d="M 37 47C 37 52.522846 41.477154 57 47 57C 52.522846 57 57 52.522846 57 47C 57 41.477154 52.522846 37 47 37C 41.477154 37 37 41.477154 37 47ZM 10 10M 49 44L 52 47L 49 50M 45 44L 42 47L 45 50M 11 37C 11.019445 35.143372 11.403379 33.308643 12.13 31.6C 12.93 30 16.256001 28.9 20.436001 27.351999C 21.566 26.934 21.380001 23.984001 20.880001 23.431999C 19.268551 21.685833 18.479071 19.334854 18.709999 16.969999C 18.565205 15.46426 19.052738 13.966075 20.055944 12.833911C 21.059151 11.701747 22.487778 11.037463 24 11C 25.512222 11.037463 26.940847 11.701747 27.944054 12.833911C 28.947262 13.966075 29.434793 15.46426 29.289999 16.969999C 29.521515 19.335524 28.731993 21.687351 27.119999 23.433998C 26.620001 23.986 26.434 26.936001 27.563999 27.354C 31.743999 28.902 35.071999 30.007999 35.870003 31.601999C 36.596619 33.310646 36.980553 35.14537 37 37.001999ZM 31.823999 11.474C 32.506039 11.159061 33.248764 10.997273 34 11C 35.512222 11.037463 36.940849 11.701747 37.944054 12.833911C 38.947262 13.966075 39.434792 15.46426 39.290001 16.969999C 39.521515 19.335524 38.731995 21.687351 37.119999 23.433998C 36.620003 23.986 36.433998 26.936001 37.563999 27.354C 41.743999 28.902 45.071999 30.007999 45.869999 31.601999C 45.93 31.724001 45.987999 31.85 46.043999 31.976">
+                        </path>
+                    </g>
+                </g>
+            </g>
+            <g id="g-root-tx_0_hteud87k45qm-stroke" data-item-order="0" transform="translate(50, 518)"></g>
+            <g id="g-root-tx_63_1lxen987k45qn-stroke" data-item-order="0" transform="translate(296, 211.06005859375)">
+            </g>
+            <g id="g-root-ic_arro_v48vng7k5lhg-stroke" data-item-order="0" transform="translate(470, 187.419921875)">
+                <g id="ic_arro_v48vng7k5lhg-stroke" fill="none" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-miterlimit="4" stroke="#f4f4f4" stroke-width="2">
+                    <g>
+                        <path
+                            d="M 44.066002 44C 44.065998 46.300819 45.931183 48.166 48.231998 48.166C 50.532818 48.166 52.397999 46.300819 52.397999 44C 52.397999 41.699181 50.532818 39.834 48.231998 39.834C 45.931183 39.834 44.065998 41.699181 44.065998 44M 45.453999 56.5L 56.563999 56.5C 55.899048 53.89912 54.057701 51.757942 51.585693 50.711067C 49.113686 49.664192 46.294624 49.831722 43.964001 51.164001M 15.602 44C 15.602 46.300819 17.467182 48.166 19.768 48.166C 22.068817 48.166 23.934 46.300819 23.934 44C 23.934 41.699181 22.068817 39.834 19.768 39.834C 17.467182 39.834 15.602 41.699181 15.602 44M 22.487999 56.5L 11.436 56.5C 12.098295 53.912041 13.925614 51.778793 16.381168 50.726917C 18.836721 49.675037 21.641655 49.823986 23.972 51.130005M 44.158001 56.5C 44.209476 52.827229 42.279564 49.411205 39.107155 47.559803C 35.934746 45.708397 32.011253 45.708397 28.838844 47.559803C 25.666435 49.411205 23.736523 52.827229 23.787998 56.499996ZM 28.684 34.461998C 31.572502 37.455845 36.012802 38.348686 39.834 36.704002M 27.85 37.517998C 27.85 40.841652 30.544352 43.536003 33.868004 43.536003C 37.19165 43.536003 39.886002 40.841652 39.886002 37.518002C 39.886002 34.194351 37.19165 31.500002 33.868004 31.500002C 30.544352 31.500002 27.85 34.194351 27.85 37.518002M 46.972 35.5C 46.972 35.5 40.972 29.5 40.972 24.5L 49.972 24.5L 33.972 11.5L 17.972 24.5L 26.972 24.5C 26.972 29.5 20.972 35.5 20.972 35.5">
+                        </path>
+                    </g>
+                </g>
+            </g>
+            <g id="g-root-tx_100_qqassc7k4742-stroke" data-item-order="0" transform="translate(26, 182)"></g>
+            <g id="g-root-tx__me856k7k4552-stroke" data-item-order="0" transform="translate(86, 724)"></g>
+            <g id="g-root-tx__18fpe0s7k45ql-stroke" data-item-order="0" transform="translate(140, 38)"></g>
+            <g id="g-root-tx__144vol87k45xp-stroke" data-item-order="0" transform="translate(104, 640)"></g>
+            <g id="g-root-tx__qn6fcs7k5k3l-stroke" data-item-order="0" transform="translate(278, 640)"></g>
+            <g id="g-root-tx__dgppoc7k5l39-stroke" data-item-order="0" transform="translate(434, 640)"></g>
+            <g id="g-root-tx_91_1cviw587k5j4b-stroke" data-item-order="0" transform="translate(464, 116.419921875)"></g>
+        </g>
+    </g>
+</svg>
