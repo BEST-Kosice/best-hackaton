@@ -1,0 +1,908 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Pre sponzorov - Hack the BEST{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="bg-gradient-to-r from-[#990033] to-[#cc0044] text-white py-20">
+    <div class="container mx-auto px-4 text-center">
+        <h1 class="text-4xl md:text-5xl font-bold mb-6">Partnerstvo s Hack the BEST</h1>
+        <p class="text-xl max-w-3xl mx-auto mb-8">Pripojte sa k nám ako partner a získajte prístup k talentovaným
+            študentom, inovatívnym nápadom a zvýšte povedomie o vašej značke.</p>
+        <div class="flex flex-wrap justify-center gap-4">
+            <a href="#contact-form"
+                class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 h-10 bg-white text-[#990033] hover:bg-gray-100 text-lg px-8 py-6">Staňte
+                sa partnerom</a>
+            <a href="#benefits"
+                class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border bg-background hover:text-accent-foreground h-10 border-white text-white hover:bg-white/10 text-lg px-8 py-6">Výhody
+                partnerstva</a>
+        </div>
+    </div>
+</section>
+
+<!-- Key Stats -->
+<section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12">Hack the BEST v číslach</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div
+                class="rounded-lg bg-card text-card-foreground shadow-sm border-2 border-[#990033]/20 hover:border-[#990033] transition-all duration-300">
+                <div class="p-6 flex flex-col items-center text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-users h-12 w-12 text-[#990033] mb-4">
+                        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                        <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
+                    <h3 class="text-2xl font-bold mb-2">100+</h3>
+                    <p class="text-gray-600">Účastníkov</p>
+                </div>
+            </div>
+            <div
+                class="rounded-lg bg-card text-card-foreground shadow-sm border-2 border-[#990033]/20 hover:border-[#990033] transition-all duration-300">
+                <div class="p-6 flex flex-col items-center text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-clock h-12 w-12 text-[#990033] mb-4">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                    <h3 class="text-2xl font-bold mb-2">24</h3>
+                    <p class="text-gray-600">Hodín inovácií</p>
+                </div>
+            </div>
+            <div
+                class="rounded-lg bg-card text-card-foreground shadow-sm border-2 border-[#990033]/20 hover:border-[#990033] transition-all duration-300">
+                <div class="p-6 flex flex-col items-center text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-lightbulb h-12 w-12 text-[#990033] mb-4">
+                        <path
+                            d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5">
+                        </path>
+                        <path d="M9 18h6"></path>
+                        <path d="M10 22h4"></path>
+                    </svg>
+                    <h3 class="text-2xl font-bold mb-2">20+</h3>
+                    <p class="text-gray-600">Projektov</p>
+                </div>
+            </div>
+            <div
+                class="rounded-lg bg-card text-card-foreground shadow-sm border-2 border-[#990033]/20 hover:border-[#990033] transition-all duration-300">
+                <div class="p-6 flex flex-col items-center text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-building h-12 w-12 text-[#990033] mb-4">
+                        <rect width="16" height="20" x="4" y="2" rx="2" ry="2"></rect>
+                        <path d="M9 22v-4h6v4"></path>
+                        <path d="M8 6h.01"></path>
+                        <path d="M16 6h.01"></path>
+                        <path d="M12 6h.01"></path>
+                        <path d="M12 10h.01"></path>
+                        <path d="M12 14h.01"></path>
+                        <path d="M16 10h.01"></path>
+                        <path d="M16 14h.01"></path>
+                        <path d="M8 10h.01"></path>
+                        <path d="M8 14h.01"></path>
+                    </svg>
+                    <h3 class="text-2xl font-bold mb-2">10+</h3>
+                    <p class="text-gray-600">Partnerských spoločností</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Benefits Section -->
+<section id="benefits" class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-4">Partnerské balíčky</h2>
+        <p class="text-center text-gray-600 max-w-3xl mx-auto mb-12">Ponúkame rôzne úrovne partnerstva, aby sme vyhoveli
+            vašim potrebám a cieľom.</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div
+                class="rounded-lg bg-card text-card-foreground shadow-sm border-2 border-[#990033]/20 hover:shadow-lg transition-all duration-300">
+                <div class="p-6">
+                    <h3 class="text-2xl font-bold mb-2">Štandardný partner</h3>
+                    <p class="text-3xl font-bold text-[#990033] mb-4">1000 €</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-start">
+                            <div class="text-[#990033] mr-2 mt-1">✓</div>
+                            <span>Významná viditeľnosť na podujatí a online</span>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="text-[#990033] mr-2 mt-1">✓</div>
+                            <span>Logo na webstránke podujatia</span>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="text-[#990033] mr-2 mt-1">✓</div>
+                            <span>Roll-up na mieste konania</span>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="text-[#990033] mr-2 mt-1">✓</div>
+                            <span>Možnosť viesť workshop</span>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="text-[#990033] mr-2 mt-1">✓</div>
+                            <span>Interakcia s účastníkmi</span>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="text-[#990033] mr-2 mt-1">✓</div>
+                            <span>Zmienka v médiách</span>
+                        </li>
+                    </ul>
+                    <button
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 w-full">Kontaktujte
+                        nás</button>
+                </div>
+            </div>
+            <div class="rounded-lg bg-card text-card-foreground border-2 border-[#990033] shadow-lg relative">
+                <div class="absolute top-0 right-0 bg-[#990033] text-white px-4 py-1 text-sm font-bold rounded-bl-lg">
+                    Odporúčané</div>
+                <div class="p-6">
+                    <h3 class="text-2xl font-bold mb-2">Hlavný partner</h3>
+                    <p class="text-3xl font-bold text-[#990033] mb-4">3000 €</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-start">
+                            <div class="text-[#990033] mr-2 mt-1">✓</div><span>Maximálna viditeľnosť, logo na všetkých
+                                materiáloch</span>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="text-[#990033] mr-2 mt-1">✓</div><span>Vítací príhovor na otvorení
+                                podujatia</span>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="text-[#990033] mr-2 mt-1">✓</div><span>Vlastný stánok na mieste konania</span>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="text-[#990033] mr-2 mt-1">✓</div><span>Možnosť byť súčasťou poroty</span>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="text-[#990033] mr-2 mt-1">✓</div><span>Vlastná súťažná kategória</span>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="text-[#990033] mr-2 mt-1">✓</div><span>Silná prítomnosť v médiách a
+                                online</span>
+                        </li>
+                    </ul><button
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 text-primary-foreground h-10 px-4 py-2 w-full bg-[#990033] hover:bg-[#7a0029]">Kontaktujte
+                        nás</button>
+                </div>
+            </div>
+            <div
+                class="rounded-lg bg-card text-card-foreground shadow-sm border-2 border-[#990033]/20 hover:shadow-lg transition-all duration-300">
+                <div class="p-6">
+                    <h3 class="text-2xl font-bold mb-2">Mediálny partner</h3>
+                    <p class="text-3xl font-bold text-[#990033] mb-4">Barter</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-start">
+                            <div class="text-[#990033] mr-2 mt-1">✓</div><span>Logo a zmienky na podujatí</span>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="text-[#990033] mr-2 mt-1">✓</div><span>Zmienky v tlačových správach</span>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="text-[#990033] mr-2 mt-1">✓</div><span>Exkluzívny obsah z podujatia</span>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="text-[#990033] mr-2 mt-1">✓</div><span>Spolupráca pri propagácii
+                                hackathonu</span>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="text-gray-300 mr-2 mt-1">✓</div><span class="text-gray-400">Interakcia s
+                                účastníkmi</span>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="text-gray-300 mr-2 mt-1">✓</div><span class="text-gray-400">Zmienka v
+                                médiách</span>
+                        </li>
+                    </ul><button
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 w-full">Kontaktujte
+                        nás</button>
+                </div>
+            </div>
+        </div>
+        <div class="mt-8 p-6 bg-[#990033]/5 rounded-lg">
+            <h3 class="text-xl font-bold mb-2">Prémiový upgrade</h3>
+            <div class="flex flex-col md:flex-row items-start md:items-center justify-between">
+                <div class="mb-4 md:mb-0">
+                    <p class="mb-2">Zvýšte svoju viditeľnosť s prémiovým upgradom za +500 €</p>
+                    <p class="text-gray-600">Získajte možnosť krátkej prezentácie počas otvorenia podujatia pre ešte
+                        väčší efekt.</p>
+                </div><button
+                    class="inline-flex items-center justify-center gap-2 rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 whitespace-nowrap">Mám
+                    záujem</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div>
+                <h2 class="text-3xl font-bold mb-6 flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-briefcase mr-2 h-8 w-8 text-[#990033]">
+                        <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                        <rect width="20" height="14" x="2" y="6" rx="2"></rect>
+                    </svg>Čo ponúkame</h2>
+                <ul class="space-y-4">
+                    <li class="flex items-start">
+                        <div
+                            class="bg-[#990033] text-white rounded-full w-6 h-6 flex items-center justify-center mr-3 mt-1 flex-shrink-0">
+                            1</div>
+                        <div>
+                            <h3 class="font-bold text-lg">Reklama medzi technickou mládežou</h3>
+                            <p class="text-gray-600">Prístup k 100+ motivovaným študentom technických odborov.</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <div
+                            class="bg-[#990033] text-white rounded-full w-6 h-6 flex items-center justify-center mr-3 mt-1 flex-shrink-0">
+                            2</div>
+                        <div>
+                            <h3 class="font-bold text-lg">Vyhľadávanie talentov</h3>
+                            <p class="text-gray-600">Možnosť identifikovať a osloviť potenciálnych zamestnancov.</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <div
+                            class="bg-[#990033] text-white rounded-full w-6 h-6 flex items-center justify-center mr-3 mt-1 flex-shrink-0">
+                            3</div>
+                        <div>
+                            <h3 class="font-bold text-lg">Spojenie s inováciou</h3>
+                            <p class="text-gray-600">Prístup k inovatívnym nápadom a riešeniam reálnych problémov.</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <div
+                            class="bg-[#990033] text-white rounded-full w-6 h-6 flex items-center justify-center mr-3 mt-1 flex-shrink-0">
+                            4</div>
+                        <div>
+                            <h3 class="font-bold text-lg">Prezentácia vašej značky</h3>
+                            <p class="text-gray-600">Zvýšenie povedomia o vašej značke medzi študentmi a v technickej
+                                komunite.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="text-3xl font-bold mb-6 flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-presentation mr-2 h-8 w-8 text-[#990033]">
+                        <path d="M2 3h20"></path>
+                        <path d="M21 3v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V3"></path>
+                        <path d="m7 21 5-5 5 5"></path>
+                    </svg>Čo hľadáme</h2>
+                <ul class="space-y-4">
+                    <li class="flex items-start">
+                        <div
+                            class="bg-[#990033] text-white rounded-full w-6 h-6 flex items-center justify-center mr-3 mt-1 flex-shrink-0">
+                            1</div>
+                        <div>
+                            <h3 class="font-bold text-lg">Finančná podpora</h3>
+                            <p class="text-gray-600">Prostriedky na organizáciu a zabezpečenie kvalitného podujatia.</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <div
+                            class="bg-[#990033] text-white rounded-full w-6 h-6 flex items-center justify-center mr-3 mt-1 flex-shrink-0">
+                            2</div>
+                        <div>
+                            <h3 class="font-bold text-lg">Mentori a koučovia</h3>
+                            <p class="text-gray-600">Odborníci, ktorí pomôžu účastníkom s ich projektami.</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <div
+                            class="bg-[#990033] text-white rounded-full w-6 h-6 flex items-center justify-center mr-3 mt-1 flex-shrink-0">
+                            3</div>
+                        <div>
+                            <h3 class="font-bold text-lg">Členovia poroty</h3>
+                            <p class="text-gray-600">Skúsení profesionáli na hodnotenie projektov.</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <div
+                            class="bg-[#990033] text-white rounded-full w-6 h-6 flex items-center justify-center mr-3 mt-1 flex-shrink-0">
+                            4</div>
+                        <div>
+                            <h3 class="font-bold text-lg">Materiálna podpora</h3>
+                            <p class="text-gray-600">Catering, merchandising, technické vybavenie a ďalšie potreby.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12">Dáta a štatistiky</h2>
+        <div dir="ltr" data-orientation="horizontal" class="w-full" id="data-tabs">
+            <div role="tablist" aria-orientation="horizontal"
+                class="h-10 items-center justify-center rounded-md bg-muted p-1 text-muted-foreground grid w-full grid-cols-2 md:grid-cols-5 mb-8"
+                tabindex="0" data-orientation="horizontal" style="outline:none"><button type="button" role="tab"
+                    aria-selected="true" aria-controls="tab-content-participants" data-state="active"
+                    id="tab-trigger-participants"
+                    class="inline-flex items-center justify-center whitespace-nowrap rounded-sm px-3 py-1.5 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm"
+                    tabindex="-1" data-orientation="horizontal" data-radix-collection-item="">Účastníci</button><button
+                    type="button" role="tab" aria-selected="false" aria-controls="tab-content-projects"
+                    data-state="inactive" id="tab-trigger-projects"
+                    class="inline-flex items-center justify-center whitespace-nowrap rounded-sm px-3 py-1.5 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm"
+                    tabindex="-1" data-orientation="horizontal" data-radix-collection-item="">Projekty</button><button
+                    type="button" role="tab" aria-selected="false" aria-controls="tab-content-benefits"
+                    data-state="inactive" id="tab-trigger-benefits"
+                    class="inline-flex items-center justify-center whitespace-nowrap rounded-sm px-3 py-1.5 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm"
+                    tabindex="-1" data-orientation="horizontal" data-radix-collection-item="">Výhody</button><button
+                    type="button" role="tab" aria-selected="false" aria-controls="tab-content-goals"
+                    data-state="inactive" id="tab-trigger-goals"
+                    class="inline-flex items-center justify-center whitespace-nowrap rounded-sm px-3 py-1.5 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm"
+                    tabindex="-1" data-orientation="horizontal" data-radix-collection-item="">Ciele</button><button
+                    type="button" role="tab" aria-selected="false" aria-controls="tab-content-results"
+                    data-state="inactive" id="tab-trigger-results"
+                    class="inline-flex items-center justify-center whitespace-nowrap rounded-sm px-3 py-1.5 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm"
+                    tabindex="-1" data-orientation="horizontal" data-radix-collection-item="">Výsledky</button></div>
+            <div data-state="active" data-orientation="horizontal" role="tabpanel"
+                aria-labelledby="tab-trigger-participants" id="tab-content-participants"
+                tabindex="0"
+                class="mt-2 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 space-y-8"
+                style="animation-duration:0s">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-4">Zloženie účastníkov</h3>
+                            <div class="aspect-video relative"><img alt="Zloženie účastníkov" loading="lazy"
+                                    decoding="async" data-nimg="fill" class="object-contain"
+                                    style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
+                                    src="{% static 'figs/composition_of_participants_in_university_events.svg' %}"></div>
+                            <p class="mt-4 text-gray-600">87.5% účastníkov sú študenti bakalárskeho a magisterského
+                                štúdia.</p>
+                        </div>
+                    </div>
+                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-4">Vekové rozloženie</h3>
+                            <div class="aspect-video relative"><img alt="Vekové rozloženie účastníkov" loading="lazy"
+                                    decoding="async" data-nimg="fill" class="object-contain"
+                                    style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
+                                    src="{% static 'figs/distribution_of_participants_by_age.svg' %}"></div>
+                            <p class="mt-4 text-gray-600">74% účastníkov je vo veku 18-25 rokov, 15.5% vo veku 26-35
+                                rokov.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-state="inactive" data-orientation="horizontal" role="tabpanel"
+                aria-labelledby="tab-trigger-projects" hidden="" id="tab-content-projects"
+                tabindex="0"
+                class="mt-2 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 space-y-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-4">Rozdelenie projektov podľa sektora</h3>
+                            <div class="aspect-video relative"><img alt="Rozdelenie projektov podľa sektora" loading="lazy"
+                                decoding="async" data-nimg="fill" class="object-contain"
+                                style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
+                                src="{% static 'figs/distribution_of_projects_by_sector.svg' %}"></div>
+                            <p class="mt-4 text-gray-600">Najväčší podiel projektov je v oblasti umelej inteligencie (38%) a IoT zariadení (27%).</p>
+                        </div>
+                    </div>
+                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-4">Formáty hackathonov</h3>
+                            <div class="aspect-video relative"><img alt="Formáty hackathonov" loading="lazy"
+                                decoding="async" data-nimg="fill" class="object-contain"
+                                style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
+                                src="{% static 'figs/distribution_of_hackaton_formats_by_duration.svg' %}"></div>
+                            <p class="mt-4 text-gray-600">45% hackathonov má 48-hodinový formát, 38% má 24-hodinový formát.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-state="inactive" data-orientation="horizontal" role="tabpanel"
+                aria-labelledby="tab-trigger-benefits" hidden="" id="tab-content-benefits"
+                tabindex="0"
+                class="mt-2 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 space-y-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-4">Výhody investovania do hackathonov</h3>
+                            <div class="aspect-video relative"><img alt="Výhody investovania do hackathonov" loading="lazy"
+                                decoding="async" data-nimg="fill" class="object-contain"
+                                style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
+                                src="{% static 'figs/benefits_of_investing_in_hackatons.svg' %}"></div>
+                            <p class="mt-4 text-gray-600">Hlavné výhody zahŕňajú prístup k talentom, akceleráciu inovácií a posilnenie HR značky.</p>
+                        </div>
+                    </div>
+                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-4">Firemné výhody a ROI</h3>
+                            <div class="aspect-video relative"><img alt="Výhody investovania do hackathonov" loading="lazy"
+                                decoding="async" data-nimg="fill" class="object-contain"
+                                style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
+                                src="{% static 'figs/corporate_benefits_and_roi.svg' %}"></div>
+                            <p class="mt-4 text-gray-600">Zníženie nákladov na R&D a zvýšenie povedomia o značke sú kľúčové výhody pre firmy.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-state="inactive" data-orientation="horizontal" role="tabpanel"
+                aria-labelledby="tab-trigger-goals" hidden="" id="tab-content-goals" tabindex="0"
+                class="mt-2 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 space-y-8">
+                <div class="grid grid-cols-1 gap-8 mx-auto max-w-4xl">
+                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-4">Ciele účastníkov hackathonov</h3>
+                            <div class="aspect-video relative"><img alt="Ciele účastníkov hackathonov" loading="lazy"
+                                decoding="async" data-nimg="fill" class="object-contain"
+                                style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
+                                src="{% static 'figs/goals_of_hackaton_participants.svg' %}"></div>
+                            <p class="mt-4 text-gray-600">92% účastníkov chce získať praktické skúsenosti, 87% chce rozšíriť svoju sieť kontaktov.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-state="inactive" data-orientation="horizontal" role="tabpanel"
+                aria-labelledby="tab-trigger-results" hidden="" id="tab-content-results"
+                tabindex="0"
+                class="mt-2 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 space-y-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-4">Výsledky predchádzajúcich ročníkov</h3>
+                            <div class="aspect-video relative"><img alt="Výsledky zamestnania účastníkov" loading="lazy"
+                                decoding="async" data-nimg="fill" class="object-contain"
+                                style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
+                                src="{% static 'figs/employment_results_of_hackaton_participants.svg' %}"></div>
+                            <p class="mt-4 text-gray-600">67% účastníkov zlepšilo svoje zručnosti, 41% dostalo pracovné ponuky.</p>
+                        </div>
+                    </div>
+                    <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-4">Efektivita tímov</h3>
+                            <div class="aspect-video relative"><img alt="Efektivita tímov" loading="lazy"
+                                decoding="async" data-nimg="fill" class="object-contain"
+                                style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
+                                src="{% static 'figs/efficiency_of_teams_at_hackatons.svg' %}"></div>
+                            <p class="mt-4 text-gray-600">Priemerný počet projektov, pracovné prototypy a tímy dokončujúce projekty načas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12">Miesto konania a harmonogram</h2>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <div>
+                <h3 class="text-2xl font-bold mb-4 flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-building mr-2 h-6 w-6 text-[#990033]">
+                        <rect width="16" height="20" x="4" y="2" rx="2" ry="2"></rect>
+                        <path d="M9 22v-4h6v4"></path>
+                        <path d="M8 6h.01"></path>
+                        <path d="M16 6h.01"></path>
+                        <path d="M12 6h.01"></path>
+                        <path d="M12 10h.01"></path>
+                        <path d="M12 14h.01"></path>
+                        <path d="M16 10h.01"></path>
+                        <path d="M16 14h.01"></path>
+                        <path d="M8 10h.01"></path>
+                        <path d="M8 14h.01"></path>
+                    </svg>Miesto konania</h3>
+                <div class="bg-gray-100 p-6 rounded-lg mb-6">
+                    <h4 class="font-bold text-lg mb-2">Univerzitná knižnica TUKE</h4>
+                    <p class="mb-4">Technická univerzita v Košiciach, Letná 9, 042 00 Košice</p>
+                    <div class="aspect-video relative rounded-lg overflow-hidden">
+                        <div class="absolute inset-0 bg-gray-200 flex items-center justify-center">
+                            <p class="text-gray-500">Plán budovy knižnice</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-y-4">
+                    <h4 class="font-bold text-lg">Rozloženie priestorov</h4>
+                    <div class="flex items-start space-x-2">
+                        <div class="w-4 h-4 rounded-full bg-[#990033] mt-1 flex-shrink-0"></div>
+                        <p>Hlavná hala - registrácia, otvorenie a záverečná prezentácia</p>
+                    </div>
+                    <div class="flex items-start space-x-2">
+                        <div class="w-4 h-4 rounded-full bg-blue-500 mt-1 flex-shrink-0"></div>
+                        <p>Študijné priestory - hlavný pracovný priestor pre tímy</p>
+                    </div>
+                    <div class="flex items-start space-x-2">
+                        <div class="w-4 h-4 rounded-full bg-green-500 mt-1 flex-shrink-0"></div>
+                        <p>Oddychové zóny - priestor na relax a networking</p>
+                    </div>
+                    <div class="flex items-start space-x-2">
+                        <div class="w-4 h-4 rounded-full bg-yellow-500 mt-1 flex-shrink-0"></div>
+                        <p>Partnerské stánky - priestor pre sponzorov a partnerov</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h3 class="text-2xl font-bold mb-4 flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-calendar mr-2 h-6 w-6 text-[#990033]">
+                        <path d="M8 2v4"></path>
+                        <path d="M16 2v4"></path>
+                        <rect width="18" height="18" x="3" y="4" rx="2"></rect>
+                        <path d="M3 10h18"></path>
+                    </svg>Harmonogram</h3>
+                <div class="relative">
+                    <div class="mb-8">
+                        <h4 class="font-bold text-lg mb-4">Piatok</h4>
+                        <div class="space-y-4">
+                            <div class="flex">
+                                <div class="w-20 flex-shrink-0 font-bold">16:00</div>
+                                <div>
+                                    <p class="font-bold">Registrácia účastníkov</p>
+                                    <p class="text-gray-600">Hlavná hala</p>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div class="w-20 flex-shrink-0 font-bold">17:00</div>
+                                <div>
+                                    <p class="font-bold">Otvorenie hackathonu</p>
+                                    <p class="text-gray-600">Úvodné slovo organizátorov a partnerov</p>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div class="w-20 flex-shrink-0 font-bold">18:00</div>
+                                <div>
+                                    <p class="font-bold">Predstavenie výziev</p>
+                                    <p class="text-gray-600">Partneri predstavia svoje výzvy a zadania</p>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div class="w-20 flex-shrink-0 font-bold">19:00</div>
+                                <div>
+                                    <p class="font-bold">Formovanie tímov</p>
+                                    <p class="text-gray-600">Účastníci sa rozdelia do tímov</p>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div class="w-20 flex-shrink-0 font-bold">20:00</div>
+                                <div>
+                                    <p class="font-bold">Začiatok práce na projektoch</p>
+                                    <p class="text-gray-600">Tímy začínajú pracovať na svojich nápadoch</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-lg mb-4">Sobota</h4>
+                        <div class="space-y-4">
+                            <div class="flex">
+                                <div class="w-20 flex-shrink-0 font-bold">09:00</div>
+                                <div>
+                                    <p class="font-bold">Mentoring</p>
+                                    <p class="text-gray-600">Mentori k dispozícii pre tímy</p>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div class="w-20 flex-shrink-0 font-bold">12:00</div>
+                                <div>
+                                    <p class="font-bold">Kontrolný bod</p>
+                                    <p class="text-gray-600">Krátke prezentácie postupu tímov</p>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div class="w-20 flex-shrink-0 font-bold">15:00</div>
+                                <div>
+                                    <p class="font-bold">Koniec práce na projektoch</p>
+                                    <p class="text-gray-600">Tímy finalizujú svoje projekty</p>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div class="w-20 flex-shrink-0 font-bold">15:30</div>
+                                <div>
+                                    <p class="font-bold">Prezentácie projektov</p>
+                                    <p class="text-gray-600">Tímy prezentujú svoje riešenia</p>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div class="w-20 flex-shrink-0 font-bold">16:00</div>
+                                <div>
+                                    <p class="font-bold">Vyhlásenie výsledkov a odovzdanie cien</p>
+                                    <p class="text-gray-600">Záverečná ceremónia</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12">Dlhodobý vplyv hackathonu</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-4">Pokračovanie projektov</h3>
+                    <div class="aspect-video relative"><img alt="Vplyv hackathonu na pokračovanie projektov"
+                            loading="lazy" decoding="async" data-nimg="fill" class="object-contain"
+                            style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
+                            src="{% static 'figs/post-hachaton_effect_on_project_continuation.svg' %}"></div>
+                    <p class="mt-4 text-gray-600">Projekty s mentoringom a finančnou podporou majú výrazne vyššiu šancu
+                        na pokračovanie po hackathone.</p>
+                </div>
+            </div>
+            <div class="space-y-6">
+                <h3 class="text-xl font-bold">Prečo je to dôležité pre partnerov</h3>
+                <div class="space-y-4">
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-trending-up h-6 w-6 text-[#990033] mr-3 mt-1 flex-shrink-0">
+                            <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline>
+                            <polyline points="16 7 22 7 22 13"></polyline>
+                        </svg>
+                        <div>
+                            <h4 class="font-bold">Dlhodobá spolupráca</h4>
+                            <p class="text-gray-600">Možnosť nadviazať dlhodobú spoluprácu s talentovanými tímami.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-lightbulb h-6 w-6 text-[#990033] mr-3 mt-1 flex-shrink-0">
+                            <path
+                                d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5">
+                            </path>
+                            <path d="M9 18h6"></path>
+                            <path d="M10 22h4"></path>
+                        </svg>
+                        <div>
+                            <h4 class="font-bold">Inovatívne riešenia</h4>
+                            <p class="text-gray-600">Získanie inovatívnych riešení, ktoré môžu byť implementované vo
+                                vašej spoločnosti.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-chart-pie h-6 w-6 text-[#990033] mr-3 mt-1 flex-shrink-0">
+                            <path
+                                d="M21 12c.552 0 1.005-.449.95-.998a10 10 0 0 0-8.953-8.951c-.55-.055-.998.398-.998.95v8a1 1 0 0 0 1 1z">
+                            </path>
+                            <path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
+                        </svg>
+                        <div>
+                            <h4 class="font-bold">Merateľné výsledky</h4>
+                            <p class="text-gray-600">Konkrétne výsledky a ROI z vašej investície do hackathonu.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-trophy h-6 w-6 text-[#990033] mr-3 mt-1 flex-shrink-0">
+                            <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+                            <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+                            <path d="M4 22h16"></path>
+                            <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path>
+                            <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path>
+                            <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path>
+                        </svg>
+                        <div>
+                            <h4 class="font-bold">Konkurenčná výhoda</h4>
+                            <p class="text-gray-600">Získanie konkurenčnej výhody prostredníctvom prístupu k novým
+                                technológiám a talentom.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-4">Naši partneri</h2>
+        <p class="text-center text-gray-600 max-w-3xl mx-auto mb-12">Pripojte sa k týmto inovatívnym spoločnostiam,
+            ktoré už podporujú Hack the BEST.</p>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+            <div class="bg-gray-100 rounded-lg p-4 h-32 flex items-center justify-center">
+                <p class="text-gray-400 text-center">Logo partnera</p>
+            </div>
+            <div class="bg-gray-100 rounded-lg p-4 h-32 flex items-center justify-center">
+                <p class="text-gray-400 text-center">Logo partnera</p>
+            </div>
+            <div class="bg-gray-100 rounded-lg p-4 h-32 flex items-center justify-center">
+                <p class="text-gray-400 text-center">Logo partnera</p>
+            </div>
+            <div class="bg-gray-100 rounded-lg p-4 h-32 flex items-center justify-center">
+                <p class="text-gray-400 text-center">Logo partnera</p>
+            </div>
+            <div class="bg-gray-100 rounded-lg p-4 h-32 flex items-center justify-center">
+                <p class="text-gray-400 text-center">Logo partnera</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact-form" class="py-16 bg-[#990033]/5">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-4">Staňte sa partnerom</h2>
+        <p class="text-center text-gray-600 max-w-3xl mx-auto mb-12">Vyplňte formulár nižšie a náš tím vás bude
+            kontaktovať s ďalšími informáciami o partnerských možnostiach.</p>
+        <div class="max-w-3xl mx-auto">
+            <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
+                <div class="p-6">
+                    <form class="space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div class="space-y-2"><label for="name" class="font-medium">Meno a priezvisko</label><input
+                                    type="text" id="name"
+                                    class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#990033]"
+                                    placeholder="Vaše meno"></div>
+                            <div class="space-y-2"><label for="company" class="font-medium">Spoločnosť</label><input
+                                    type="text" id="company"
+                                    class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#990033]"
+                                    placeholder="Názov spoločnosti"></div>
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div class="space-y-2"><label for="email" class="font-medium">Email</label><input
+                                    type="email" id="email"
+                                    class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#990033]"
+                                    placeholder="vas@email.com"></div>
+                            <div class="space-y-2"><label for="phone" class="font-medium">Telefón</label><input
+                                    type="tel" id="phone"
+                                    class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#990033]"
+                                    placeholder="+421 XXX XXX XXX"></div>
+                        </div>
+                        <div class="space-y-2"><label for="package" class="font-medium">Záujem o partnerský
+                                balíček</label><select id="package"
+                                class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#990033]">
+                                <option value="">Vyberte balíček</option>
+                                <option value="main">Hlavný partner (3000 €)</option>
+                                <option value="standard">Štandardný partner (1000 €)</option>
+                                <option value="premium">Štandardný partner + Prémiový upgrade (1500 €)</option>
+                                <option value="media">Mediálny partner (Barter)</option>
+                                <option value="custom">Iné (upresníte v správe)</option>
+                            </select></div>
+                        <div class="space-y-2"><label for="message" class="font-medium">Správa</label><textarea
+                                id="message" rows="5"
+                                class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#990033]"
+                                placeholder="Vaša správa, otázky alebo požiadavky..."></textarea></div><button
+                            class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 text-primary-foreground h-10 px-4 w-full bg-[#990033] hover:bg-[#7a0029] py-6 text-lg">Odoslať
+                            žiadosť o partnerstvo</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_css %}
+<style>
+    /* Custom CSS for sponsors page */
+    :root {
+        --primary-color: #990033;
+        --primary-dark: #7a0029;
+        --primary-light: rgba(153, 0, 51, 0.05);
+        --primary-border: rgba(153, 0, 51, 0.2);
+    }
+
+    .bg-primary {
+        background-color: var(--primary-color) !important;
+    }
+
+    .bg-primary-light {
+        background-color: var(--primary-light) !important;
+    }
+
+    .text-primary {
+        color: var(--primary-color) !important;
+    }
+
+    .border-primary {
+        border-color: var(--primary-color) !important;
+    }
+
+    .border-primary-light {
+        border-color: var(--primary-border) !important;
+    }
+
+    .btn-primary {
+        background-color: var(--primary-color);
+        border-color: var(--primary-color);
+    }
+
+    .btn-primary:hover,
+    .btn-primary:focus {
+        background-color: var(--primary-dark);
+        border-color: var(--primary-dark);
+    }
+
+    .btn-outline-primary {
+        color: var(--primary-color);
+        border-color: var(--primary-color);
+    }
+
+    .btn-outline-primary:hover,
+    .btn-outline-primary:focus {
+        background-color: var(--primary-color);
+        border-color: var(--primary-color);
+        color: white;
+    }
+
+    .bg-gradient-to-r {
+        background: linear-gradient(to right, var(--primary-color), #cc0044);
+    }
+
+    .nav-pills .nav-link.active {
+        background-color: var(--primary-color);
+    }
+
+    .nav-pills .nav-link {
+        color: #333;
+    }
+
+    .hover-border-primary:hover {
+        border-color: var(--primary-color) !important;
+    }
+
+    .hover-shadow:hover {
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    }
+
+    .transition-all {
+        transition: all 0.3s ease;
+    }
+
+    .feather-lg {
+        width: 48px;
+        height: 48px;
+    }
+
+    .hover-underline:hover {
+        text-decoration: underline !important;
+    }
+
+    /* New styles for benefits section */
+    .benefit-card {
+        padding: 2rem;
+        height: 100%;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .benefit-icon {
+        width: 64px;
+        height: 64px;
+        margin-bottom: 1.5rem;
+        color: var(--primary-color);
+    }
+
+    /* Animation classes */
+    .fade-in {
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeIn 0.6s ease forwards;
+    }
+
+    @keyframes fadeIn {
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+</style>
+{% endblock %}

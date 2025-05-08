@@ -13,6 +13,18 @@ function handleScroll() {
 
 // Countdown Timer
 function updateCountdown() {
+    // Check if countdown elements exist on the page
+    const daysElement = document.getElementById('days');
+    const hoursElement = document.getElementById('hours');
+    const minutesElement = document.getElementById('minutes');
+    const secondsElement = document.getElementById('seconds');
+    const countdownElement = document.getElementById('countdown');
+    
+    // If none of the countdown elements exist, return early
+    if (!daysElement && !hoursElement && !minutesElement && !secondsElement && !countdownElement) {
+        return;
+    }
+    
     const registrationDate = new Date('2026-01-15T00:00:00').getTime();
     const now = new Date().getTime();
     const distance = registrationDate - now;
@@ -22,14 +34,15 @@ function updateCountdown() {
     const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    document.getElementById('days').textContent = String(days).padStart(2, '0');
-    document.getElementById('hours').textContent = String(hours).padStart(2, '0');
-    document.getElementById('minutes').textContent = String(minutes).padStart(2, '0');
-    document.getElementById('seconds').textContent = String(seconds).padStart(2, '0');
+    // Safely update elements if they exist
+    if (daysElement) daysElement.textContent = String(days).padStart(2, '0');
+    if (hoursElement) hoursElement.textContent = String(hours).padStart(2, '0');
+    if (minutesElement) minutesElement.textContent = String(minutes).padStart(2, '0');
+    if (secondsElement) secondsElement.textContent = String(seconds).padStart(2, '0');
 
-    if (distance < 0) {
+    if (distance < 0 && countdownElement) {
         clearInterval(countdownInterval);
-        document.getElementById('countdown').innerHTML = '<div class="col-span-4 text-center"><span class="text-2xl font-bold text-[#990033]">Registrácia je otvorená!</span></div>';
+        countdownElement.innerHTML = '<div class="col-span-4 text-center"><span class="text-2xl font-bold text-[#990033]">Registrácia je otvorená!</span></div>';
     }
 }
 
@@ -93,6 +106,61 @@ function handleInitialHash() {
     }
 }
 
+// Tab functionality for data statistics carousel
+function initTabs() {
+    // Direct approach for the specific tab structure in sponsors.html
+    const tabsSection = document.querySelector('div[id="data-tabs"]');
+    
+    if (!tabsSection) {
+        console.log('No tabs section found');
+        return; // No tabs section found
+    } else {
+        console.log('Tabs section found');
+    }
+    
+    const tabButtons = tabsSection.querySelectorAll('button[role="tab"]');
+    const tabPanels = tabsSection.querySelectorAll('div[role="tabpanel"]');
+    
+    console.log('Found', tabButtons.length, 'tab buttons and', tabPanels.length, 'tab panels');
+    
+    if (tabButtons.length === 0 || tabPanels.length === 0) {
+        return; // No tabs found
+    }
+    
+    // Add click event listeners to each tab button
+    tabButtons.forEach((button, index) => {
+        button.addEventListener('click', function() {
+            console.log('Tab clicked:', this.textContent.trim(), 'index:', index);
+            
+            // Deactivate all buttons and hide all panels
+            tabButtons.forEach(btn => {
+                btn.setAttribute('aria-selected', 'false');
+                btn.setAttribute('data-state', 'inactive');
+            });
+            
+            tabPanels.forEach(panel => {
+                panel.setAttribute('data-state', 'inactive');
+                panel.setAttribute('hidden', '');
+            });
+            
+            // Activate clicked button
+            this.setAttribute('aria-selected', 'true');
+            this.setAttribute('data-state', 'active');
+            
+            // Show corresponding panel
+            if (tabPanels[index]) {
+                tabPanels[index].setAttribute('data-state', 'active');
+                tabPanels[index].removeAttribute('hidden');
+                console.log('Showing panel at index:', index);
+            } else {
+                console.error('Panel not found at index:', index);
+            }
+        });
+    });
+    
+    console.log('Tab functionality initialized with direct approach');
+}
+
 // Initialize all functionality
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize scroll handler
@@ -108,4 +176,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Handle initial hash only if it exists and is not empty
     handleInitialHash();
+    
+    // Initialize tabs functionality
+    initTabs();
 });
