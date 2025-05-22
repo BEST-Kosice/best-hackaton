@@ -6,7 +6,7 @@
 {% block content %}
 <!-- Hero Section -->
 <section class="pt-28 pb-16 md:pt-32 md:pb-24 bg-gradient-to-r from-pink-100 to-amber-100">
-    <div class="container mx-auto px-4 text-center">
+    <div class="container mx-auto px-4 text-center ">
         <h1 class="text-4xl md:text-5xl font-bold mb-6">Partnerstvo s Hack the BEST</h1>
         <p class="text-xl max-w-3xl mx-auto mb-8">Pripojte sa k nám ako partner a získajte prístup k talentovaným
             študentom, inovatívnym nápadom a zvýšte povedomie o vašej značke.</p>
@@ -25,7 +25,7 @@
 <section class="py-16 bg-white">
     <div class="container mx-auto px-4">
         <h2 class="text-3xl font-bold text-center mb-12">Hack the BEST v číslach</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 fade-in">
             <div
                 class="rounded-lg bg-card text-card-foreground shadow-sm border-2 border-[#990033]/20 hover:border-[#990033] transition-all duration-300">
                 <div class="p-6 flex flex-col items-center text-center">
@@ -102,7 +102,7 @@
         <h2 class="text-3xl font-bold text-center mb-4">Partnerské balíčky</h2>
         <p class="text-center text-gray-600 max-w-3xl mx-auto mb-12">Ponúkame rôzne úrovne partnerstva, aby sme vyhoveli
             vašim potrebám a cieľom.</p>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 fade-in">
             <div
                 class="rounded-lg bg-card text-card-foreground shadow-sm border-2 border-[#990033]/20 hover:shadow-lg transition-all duration-300">
                 <div class="p-6">
@@ -207,7 +207,7 @@
 
 <section class="py-16 bg-white">
     <div class="container mx-auto px-4">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 fade-in">
             <div>
                 <h2 class="text-3xl font-bold mb-6 flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24"
                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -308,12 +308,12 @@
     </div>
 </section>
 
-<section class="py-16 bg-gray-50">
+<section class="py-16 bg-gray-50 fade-in">
     <div class="container mx-auto px-4">
         <h2 class="text-3xl font-bold text-center mb-12">Dáta a štatistiky</h2>
         <div dir="ltr" data-orientation="horizontal" class="w-full" id="data-tabs">
             <div role="tablist" aria-orientation="horizontal"
-                class="h-10 items-center justify-center rounded-md bg-muted p-1 text-muted-foreground grid w-full grid-cols-2 md:grid-cols-5 mb-8"
+                class="h-10 items-center justify-center rounded-md bg-muted p-1 text-muted-foreground grid w-full grid-cols-2 md:grid-cols-5 mb-8
                 tabindex="0" data-orientation="horizontal" style="outline:none"><button type="button" role="tab"
                     aria-selected="true" aria-controls="tab-content-participants" data-state="active"
                     id="tab-trigger-participants"
@@ -338,11 +338,11 @@
             <div data-state="active" data-orientation="horizontal" role="tabpanel"
                 aria-labelledby="tab-trigger-participants" id="tab-content-participants"
                 tabindex="0"
-                class="mt-2 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 space-y-8"
+                class="mt-1 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 space-y-8"
                 style="animation-duration:0s">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
-                        <div class="p-6">
+                        <div class="p-4">
                             <h3 class="text-xl font-bold mb-4">Zloženie účastníkov</h3>
                             <div class="aspect-video relative"><img alt="Zloženie účastníkov" loading="lazy"
                                     decoding="async" data-nimg="fill" class="object-contain"
@@ -353,7 +353,7 @@
                         </div>
                     </div>
                     <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
-                        <div class="p-6">
+                        <div class="p-4">
                             <h3 class="text-xl font-bold mb-4">Vekové rozloženie</h3>
                             <div class="aspect-video relative"><img alt="Vekové rozloženie účastníkov" loading="lazy"
                                     decoding="async" data-nimg="fill" class="object-contain"
@@ -368,10 +368,10 @@
             <div data-state="inactive" data-orientation="horizontal" role="tabpanel"
                 aria-labelledby="tab-trigger-projects" hidden="" id="tab-content-projects"
                 tabindex="0"
-                class="mt-2 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 space-y-8">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                class="mt-1 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 space-y-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
-                        <div class="p-6">
+                        <div class="p-4">
                             <h3 class="text-xl font-bold mb-4">Rozdelenie projektov podľa sektora</h3>
                             <div class="aspect-video relative"><img alt="Rozdelenie projektov podľa sektora" loading="lazy"
                                 decoding="async" data-nimg="fill" class="object-contain"
@@ -381,7 +381,7 @@
                         </div>
                     </div>
                     <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
-                        <div class="p-6">
+                        <div class="p-4">
                             <h3 class="text-xl font-bold mb-4">Formáty hackathonov</h3>
                             <div class="aspect-video relative"><img alt="Formáty hackathonov" loading="lazy"
                                 decoding="async" data-nimg="fill" class="object-contain"
@@ -395,10 +395,10 @@
             <div data-state="inactive" data-orientation="horizontal" role="tabpanel"
                 aria-labelledby="tab-trigger-benefits" hidden="" id="tab-content-benefits"
                 tabindex="0"
-                class="mt-2 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 space-y-8">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                class="mt-1 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 space-y-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
-                        <div class="p-6">
+                        <div class="p-4">
                             <h3 class="text-xl font-bold mb-4">Výhody investovania do hackathonov</h3>
                             <div class="aspect-video relative"><img alt="Výhody investovania do hackathonov" loading="lazy"
                                 decoding="async" data-nimg="fill" class="object-contain"
@@ -408,7 +408,7 @@
                         </div>
                     </div>
                     <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
-                        <div class="p-6">
+                        <div class="p-4">
                             <h3 class="text-xl font-bold mb-4">Firemné výhody a ROI</h3>
                             <div class="aspect-video relative"><img alt="Výhody investovania do hackathonov" loading="lazy"
                                 decoding="async" data-nimg="fill" class="object-contain"
@@ -421,10 +421,10 @@
             </div>
             <div data-state="inactive" data-orientation="horizontal" role="tabpanel"
                 aria-labelledby="tab-trigger-goals" hidden="" id="tab-content-goals" tabindex="0"
-                class="mt-2 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 space-y-8">
-                <div class="grid grid-cols-1 gap-8 mx-auto max-w-4xl">
+                class="mt-1 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 space-y-8">
+                <div class="grid grid-cols-1 gap-4 mx-auto max-w-4xl">
                     <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
-                        <div class="p-6">
+                        <div class="p-4">
                             <h3 class="text-xl font-bold mb-4">Ciele účastníkov hackathonov</h3>
                             <div class="aspect-video relative"><img alt="Ciele účastníkov hackathonov" loading="lazy"
                                 decoding="async" data-nimg="fill" class="object-contain"
@@ -438,10 +438,10 @@
             <div data-state="inactive" data-orientation="horizontal" role="tabpanel"
                 aria-labelledby="tab-trigger-results" hidden="" id="tab-content-results"
                 tabindex="0"
-                class="mt-2 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 space-y-8">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                class="mt-1 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 space-y-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
-                        <div class="p-6">
+                        <div class="p-4">
                             <h3 class="text-xl font-bold mb-4">Výsledky predchádzajúcich ročníkov</h3>
                             <div class="aspect-video relative"><img alt="Výsledky zamestnania účastníkov" loading="lazy"
                                 decoding="async" data-nimg="fill" class="object-contain"
@@ -451,7 +451,7 @@
                         </div>
                     </div>
                     <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
-                        <div class="p-6">
+                        <div class="p-4">
                             <h3 class="text-xl font-bold mb-4">Efektivita tímov</h3>
                             <div class="aspect-video relative"><img alt="Efektivita tímov" loading="lazy"
                                 decoding="async" data-nimg="fill" class="object-contain"
@@ -469,7 +469,7 @@
 <section class="pt-28 pb-16 md:pt-32 md:pb-24 bg-gradient-to-r from-pink-100 to-amber-100">
     <div class="container mx-auto px-4">
         <h2 class="text-3xl font-bold text-center mb-12">Miesto konania a harmonogram</h2>
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 fade-in">
             <div>
                 <h3 class="text-2xl font-bold mb-4 flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24"
                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -616,7 +616,7 @@
 <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-4">
         <h2 class="text-3xl font-bold text-center mb-12">Dlhodobý vplyv hackathonu</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 fade-in">
             <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
                 <div class="p-6">
                     <h3 class="text-xl font-bold mb-4">Pokračovanie projektov</h3>
@@ -701,7 +701,7 @@
         <h2 class="text-3xl font-bold text-center mb-4">Naši partneri</h2>
         <p class="text-center text-gray-600 max-w-3xl mx-auto mb-12">Pripojte sa k týmto inovatívnym spoločnostiam,
             ktoré už podporujú Hack the BEST.</p>
-        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 fade-in">
             <div class="bg-gray-100 rounded-lg p-4 h-32 flex items-center justify-center">
                 <p class="text-gray-400 text-center">Logo partnera</p>
             </div>
@@ -720,58 +720,65 @@
         </div>
     </div>
 </section>
-
-<section id="contact-form" class="py-16 bg-[#990033]/5">
-    <div class="container mx-auto px-4">
-        <h2 class="text-3xl font-bold text-center mb-4">Staňte sa partnerom</h2>
-        <p class="text-center text-gray-600 max-w-3xl mx-auto mb-12">Vyplňte formulár nižšie a náš tím vás bude
-            kontaktovať s ďalšími informáciami o partnerských možnostiach.</p>
-        <div class="max-w-3xl mx-auto">
-            <div class="rounded-lg border bg-card text-card-foreground shadow-sm">
-                <div class="p-6">
-                    <form class="space-y-6">
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <div class="space-y-2"><label for="name" class="font-medium">Meno a priezvisko</label><input
-                                    type="text" id="name"
-                                    class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#990033]"
-                                    placeholder="Vaše meno"></div>
-                            <div class="space-y-2"><label for="company" class="font-medium">Spoločnosť</label><input
-                                    type="text" id="company"
-                                    class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#990033]"
-                                    placeholder="Názov spoločnosti"></div>
-                        </div>
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <div class="space-y-2"><label for="email" class="font-medium">Email</label><input
-                                    type="email" id="email"
-                                    class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#990033]"
-                                    placeholder="vas@email.com"></div>
-                            <div class="space-y-2"><label for="phone" class="font-medium">Telefón</label><input
-                                    type="tel" id="phone"
-                                    class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#990033]"
-                                    placeholder="+421 XXX XXX XXX"></div>
-                        </div>
-                        <div class="space-y-2"><label for="package" class="font-medium">Záujem o partnerský
-                                balíček</label><select id="package"
-                                class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#990033]">
-                                <option value="">Vyberte balíček</option>
-                                <option value="main">Hlavný partner (3000 €)</option>
-                                <option value="standard">Štandardný partner (1000 €)</option>
-                                <option value="premium">Štandardný partner + Prémiový upgrade (1500 €)</option>
-                                <option value="media">Mediálny partner (Barter)</option>
-                                <option value="custom">Iné (upresníte v správe)</option>
-                            </select></div>
-                        <div class="space-y-2"><label for="message" class="font-medium">Správa</label><textarea
-                                id="message" rows="5"
-                                class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#990033]"
-                                placeholder="Vaša správa, otázky alebo požiadavky..."></textarea></div><button
-                            class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 text-primary-foreground h-10 px-4 w-full bg-[#990033] hover:bg-[#7a0029] py-6 text-lg">Odoslať
-                            žiadosť o partnerstvo</button>
-                    </form>
+<!-- Contact Section -->
+<section id="contact" class="py-16 md:py-24">
+    <div class="container mx-auto px-4 md:px-6">
+        <h2 class="section-title fade-in visible">Kontakt</h2>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <div class="fade-in">
+                <h3 class="text-2xl font-bold mb-4">Kontaktujte nás</h3>
+                <p class="mb-6">
+                    Máte záujem o spoluprácu alebo otázky ohľadom Code4BEST? Neváhajte nás kontaktovať. Radi vám
+                    poskytneme všetky potrebné informácie.
+                </p>
+                <div class="space-y-4">
+                    <div class="flex items-center">
+                        <svg class="mr-3 text-[#990033] h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect width="20" height="16" x="2" y="4" rx="2" ry="2"></rect>
+                            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                        </svg>
+                        <a href="mailto:kosice@best-eu.org" class="hover:underline">
+                            kosice@best-eu.org
+                        </a>
+                    </div>
+                    <div class="flex items-center">
+                        <svg class="mr-3 text-[#990033] h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                            <rect width="4" height="12" x="2" y="9"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                        <a href="https://www.linkedin.com/company/bestkosice" target="_blank" rel="noopener noreferrer" class="hover:underline">
+                            @BESTKosice
+                        </a>
+                    </div>
+                    <div class="flex items-center">
+                        <svg class="mr-3 text-[#990033] h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                        </svg>
+                        <a href="https://www.instagram.com/bestkosice" target="_blank" rel="noopener noreferrer" class="hover:underline">
+                            @BESTKosice
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="fade-in">
+                <div class="mt-8">
+                    <h4 class="font-bold text-lg mb-2">Adresa</h4>
+                    <p>
+                        BEST Košice<br>
+                        Technická univerzita v Košiciach<br>
+                        Letná 9<br>
+                        042 00 Košice<br>
+                        Slovensko
+                    </p>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
 {% endblock %}
 
 {% block extra_css %}
