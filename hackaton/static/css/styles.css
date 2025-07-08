@@ -1,7 +1,8 @@
 :root {
     --primary: #990033;
-    --background: #ffffff;
-    --foreground: #333333;
+    /*--secondary: #17789C;
+    --background: #FEF9E3;
+    --accent: #FFC50E;*/
 }
 
 * {
@@ -172,7 +173,7 @@ a {
 }
 
 #mainNav.scrolled {
-    background-color: white;
+    background-color: #FEF9E3;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
