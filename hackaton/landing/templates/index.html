@@ -5,13 +5,13 @@
 
 {% block content %}
 <!-- Hero Section -->
-<section class="pt-20 pb-12 sm:pt-24 sm:pb-16 md:pt-32 md:pb-24 bg-gradient-to-r from-pink-100 to-amber-100">
+<section class="pt-20 pb-12 sm:pt-24 sm:pb-16 md:pt-32 md:pb-24 bg-gradient-to-r from-[#FEF9E3]/50 to-[#FFC50E]/25">
     <div class="container mx-auto px-4 sm:px-6 md:px-8">
         <div class="flex flex-col lg:flex-row items-center">
             <div class="w-full lg:w-1/2 mb-8 lg:mb-0 text-center lg:text-left">
                 <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#990033] mb-3 sm:mb-4">Code4BEST</h1>
                 <h2 class="text-lg sm:text-xl md:text-2xl font-medium mb-2">Hackathon študentov pre študentov</h2>
-                <p class="text-base sm:text-lg text-cyan-500 mb-6">«Kde sa z nápadov stávajú prototypy»</p>
+                <p class="text-base sm:text-lg text-[#17789C] mb-6">«Kde sa z nápadov stávajú prototypy»</p>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mb-6 sm:mb-8">
                     <div class="flex items-center justify-center lg:justify-start">
                         <svg xmlns="http://www.w3.org/2000/svg" class="mr-2 text-[#990033] h-5 w-5 sm:h-6 sm:w-6 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -47,8 +47,8 @@
                     </div>
                 </div>
                 <!-- Countdown Timer -->
-                <div class="bg-white/80 backdrop-blur-sm p-4 sm:p-6 rounded-lg shadow-lg mb-6 sm:mb-8">
-                    <h3 class="text-base sm:text-lg font-bold mb-3 sm:mb-4">Registrácia začína za:</h3>
+                <div class="bg-[#17789C]/75 backdrop-blur-sm p-4 sm:p-6 rounded-lg shadow-lg mb-6 sm:mb-8">
+                    <h3 class="text-base sm:text-lg font-bold text-white mb-3 sm:mb-4">Registrácia začína za:</h3>
                     <div class="grid grid-cols-4 gap-2 sm:gap-4 text-center" id="countdown">
                         <div class="bg-[#990033] text-white p-2 sm:p-3 rounded-lg">
                             <span class="text-lg sm:text-2xl font-bold block" id="days">00</span>
@@ -87,7 +87,7 @@
 </section>
 
 <!-- Participants Section  -->
-<section id="participants" class="py-12 sm:py-16 md:py-24">
+<section id="participants" class="py-12 sm:py-16 md:py-24 bg-[#fef9e3]">
     <div class="container mx-auto px-4 sm:px-6 md:px-8">
         <h2 class="section-title fade-in visible text-2xl sm:text-3xl md:text-4xl text-center mb-8 sm:mb-12">Pre účastníkov</h2>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
@@ -104,7 +104,7 @@
                     každého, kto má záujem o technológie a inovácie.
                 </p>
             </div>
-            <div class="fade-in bg-[#990033] text-white p-4 sm:p-6 rounded-lg">
+            <div class="fade-in bg-[#17789C] text-white p-4 sm:p-6 rounded-lg">
                 <h4 class="text-lg sm:text-xl font-bold mb-3">Čo získate?</h4>
                 <ul class="list-disc list-inside space-y-2 text-sm sm:text-base">
                     <li>Praktické skúsenosti s vývojom projektov</li>
@@ -120,7 +120,7 @@
 </section>
 
 <!-- Sponsors Section -->
-<section id="sponsors" class="py-12 sm:py-16 md:py-24 bg-gray-50">
+<section id="sponsors" class="py-12 sm:py-16 md:py-24 bg-[#FEF9E3]/60">
     <div class="container mx-auto px-4 sm:px-6 md:px-8">
         <h2 class="section-title fade-in visible text-2xl sm:text-3xl md:text-4xl text-center mb-8 sm:mb-12">Pre sponzorov</h2>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 mb-8 sm:mb-12">
@@ -137,7 +137,7 @@
                     technológie a výzvy, s ktorými sa vaša spoločnosť stretáva.
                 </p>
             </div>
-            <div class="fade-in bg-white p-4 sm:p-6 rounded-lg shadow-md">
+            <div class="fade-in bg-[#17789C] text-white p-4 sm:p-6 rounded-lg shadow-md">
                 <h4 class="text-lg sm:text-xl font-bold mb-3">Čo ponúkame?</h4>
                 <ul class="list-disc list-inside space-y-2 text-sm sm:text-base">
                     <li>Reklama medzi technickou mládežou</li>
@@ -151,7 +151,7 @@
         </div>
 
         <div class="text-center mt-8 sm:mt-12 fade-in">
-            <a href="/sponsors" class="inline-flex justify-center items-center px-6 sm:px-8 py-3 sm:py-4 bg-[#990033] text-white text-base sm:text-lg font-medium rounded-md hover:bg-[#800029] transition-colors duration-300 shadow-md">
+            <a href="/sponsors" class="inline-flex justify-center items-center px-6 sm:px-8 py-3 sm:py-4 bg-[#17789C] text-white text-base sm:text-lg font-medium rounded-md hover:bg-[#146785] transition-colors duration-300 shadow-md">
                 <span class="text-center">Podrobný prehľad partnerských možností</span>
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 sm:h-5 sm:w-5 ml-2 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor">
                     <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -162,7 +162,7 @@
 </section>
 
 <!-- About Project Section -->
-<section id="about-project" class="py-12 sm:py-16 md:py-24">
+<section id="about-project" class="py-12 sm:py-16 md:py-24 bg-[#fef9e3]">
     <div class="container mx-auto px-4 sm:px-6 md:px-8">
         <h2 class="section-title fade-in visible text-2xl sm:text-3xl md:text-4xl text-center mb-8 sm:mb-12">O projekte</h2>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
@@ -185,11 +185,11 @@
                 </p>
             </div>
             <div class="fade-in">
-                <div class="bg-gray-50 p-4 sm:p-6 lg:p-8 rounded-lg shadow-md">
+                <div class="bg-[#17789C] text-white p-4 sm:p-6 lg:p-8 rounded-lg shadow-md">
                     <h3 class="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">Priebeh hackathonu</h3>
                     <div class="space-y-4 sm:space-y-6">
                         <div class="flex">
-                            <div class="mr-3 sm:mr-4 w-8 h-8 sm:w-12 sm:h-12 bg-[#990033] text-white rounded-full flex items-center justify-center font-bold text-sm sm:text-xl flex-shrink-0">
+                            <div class="mr-3 sm:mr-4 w-8 h-8 sm:w-12 sm:h-12 bg-[#FFC50E] text-white rounded-full flex items-center justify-center font-bold text-sm sm:text-xl flex-shrink-0">
                                 1
                             </div>
                             <div>
@@ -198,7 +198,7 @@
                             </div>
                         </div>
                         <div class="flex">
-                            <div class="mr-3 sm:mr-4 w-8 h-8 sm:w-12 sm:h-12 bg-[#990033] text-white rounded-full flex items-center justify-center font-bold text-sm sm:text-xl flex-shrink-0">
+                            <div class="mr-3 sm:mr-4 w-8 h-8 sm:w-12 sm:h-12 bg-[#FFC50E] text-white rounded-full flex items-center justify-center font-bold text-sm sm:text-xl flex-shrink-0">
                                 2
                             </div>
                             <div>
@@ -207,7 +207,7 @@
                             </div>
                         </div>
                         <div class="flex">
-                            <div class="mr-3 sm:mr-4 w-8 h-8 sm:w-12 sm:h-12 bg-[#990033] text-white rounded-full flex items-center justify-center font-bold text-sm sm:text-xl flex-shrink-0">
+                            <div class="mr-3 sm:mr-4 w-8 h-8 sm:w-12 sm:h-12 bg-[#FFC50E] text-white rounded-full flex items-center justify-center font-bold text-sm sm:text-xl flex-shrink-0">
                                 3
                             </div>
                             <div>
@@ -216,7 +216,7 @@
                             </div>
                         </div>
                         <div class="flex">
-                            <div class="mr-3 sm:mr-4 w-8 h-8 sm:w-12 sm:h-12 bg-[#990033] text-white rounded-full flex items-center justify-center font-bold text-sm sm:text-xl flex-shrink-0">
+                            <div class="mr-3 sm:mr-4 w-8 h-8 sm:w-12 sm:h-12 bg-[#FFC50E] text-white rounded-full flex items-center justify-center font-bold text-sm sm:text-xl flex-shrink-0">
                                 4
                             </div>
                             <div>
@@ -232,7 +232,7 @@
 </section>
 
 <!-- About Us Section -->
-<section id="about-us" class="py-12 sm:py-16 md:py-24 lg:pt-28 lg:pb-16 xl:pt-32 xl:pb-24 bg-gradient-to-r from-pink-100 to-amber-100">
+<section id="about-us" class="py-12 sm:py-16 md:py-24 lg:pt-28 lg:pb-16 xl:pt-32 xl:pb-24 bg-gradient-to-r from-[#FFC50E]/20 to-[#FEF9E3]">
     <div class="container mx-auto px-4 sm:px-6 md:px-8">
         <h2 class="section-title fade-in visible text-2xl sm:text-3xl md:text-4xl text-center mb-8 sm:mb-12">O nás</h2>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
@@ -302,35 +302,20 @@
         <div class="mt-12 sm:mt-16 fade-in">
             <h3 class="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 text-center">Naše predchádzajúce projekty</h3>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-                <div class="bg-white p-4 sm:p-6 rounded-lg shadow-md">
-                    <h4 class="font-bold text-base sm:text-lg mb-2">Košice Engineering Competition</h4>
-                    <p class="text-gray-600 text-sm sm:text-base mb-3">Inžinierska súťaž pre študentov technických odborov zameraná na riešenie praktických problémov.</p>
-                    <a href="https://www.instagram.com/share/p/_jM8hNv1G" class="text-[#990033] font-medium flex items-center text-sm sm:text-base hover:underline">
-                        Viac informácií 
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link ml-1 h-3 w-3 sm:h-4 sm:w-4 flex-shrink-0">
-                            <path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                        </svg>
-                    </a>
+                <div class="bg-[#981A36] p-6 rounded-lg shadow-md">
+                    <h4 class="font-bold text-lg text-white mb-2">Košice Engineering Competition</h4>
+                    <p class="text-white">Inžinierska súťaž pre študentov technických odborov zameraná na riešenie praktických problémov.</p>
+                    <a href="https://www.instagram.com/share/p/_jM8hNv1G" class="text-[#FFC50E] font-medium flex items-center">Viac informácií <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link ml-1 h-4 w-4"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg></a>
                 </div>
-                <div class="bg-white p-4 sm:p-6 rounded-lg shadow-md">
-                    <h4 class="font-bold text-base sm:text-lg mb-2">Infobip workshop</h4>
-                    <p class="text-gray-600 text-sm sm:text-base mb-3">Workshop pre študentov o príprave životopisu a najnovších trendoch v oblasti IT.</p>
-                    <a href="https://www.instagram.com/share/p/BAWZRVWjLK" class="text-[#990033] font-medium flex items-center text-sm sm:text-base hover:underline">
-                        Viac informácií 
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link ml-1 h-3 w-3 sm:h-4 sm:w-4 flex-shrink-0">
-                            <path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                        </svg>
-                    </a>
+                <div class="bg-[#981A36] p-6 rounded-lg shadow-md">
+                    <h4 class="font-bold text-lg text-white mb-2">Infobip workshop</h4>
+                    <p class="text-white">Workshop pre študentov o príprave životopisu a najnovších trendoch v oblasti IT.</p>
+                    <a href="https://www.instagram.com/share/p/BAWZRVWjLK" class="text-[#FFC50E] font-medium flex items-center">Viac informácií <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link ml-1 h-4 w-4"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg></a>
                 </div>
-                <div class="bg-white p-4 sm:p-6 rounded-lg shadow-md md:col-span-2 lg:col-span-1">
-                    <h4 class="font-bold text-base sm:text-lg mb-2">BEST Summer Course</h4>
-                    <p class="text-gray-600 text-sm sm:text-base mb-3">Vzdelávaci medzinárodní kurz vedený odborníkmi z praxe a akademickej sféry.</p>
-                    <a href="https://www.instagram.com/share/p/_mUaMlGSx" class="text-[#990033] font-medium flex items-center text-sm sm:text-base hover:underline">
-                        Viac informácií 
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link ml-1 h-3 w-3 sm:h-4 sm:w-4 flex-shrink-0">
-                            <path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                        </svg>
-                    </a>
+                <div class="bg-[#981A36] p-6 rounded-lg shadow-md">
+                    <h4 class="font-bold text-lg text-white mb-2">BEST Summer Course</h4>
+                    <p class="text-white">Vzdelávaci medzinárodní kurz vedený odborníkmi z praxe a akademickej sféry.</p>
+                    <a href="https://www.instagram.com/share/p/_mUaMlGSx" class="text-[#FFC50E] font-medium flex items-center">Viac informácií <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link ml-1 h-4 w-4"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg></a>
                 </div>
             </div>
         </div>
@@ -338,7 +323,7 @@
 </section>
 
 <!-- Contact Section -->
-<section id="contact" class="py-12 sm:py-16 md:py-24">
+<section id="contact" class="py-12 sm:py-16 md:py-24 bg-[#FEF9E3]">
     <div class="container mx-auto px-4 sm:px-6 md:px-8">
         <h2 class="section-title fade-in visible text-2xl sm:text-3xl md:text-4xl text-center mb-8 sm:mb-12">Kontakt</h2>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
