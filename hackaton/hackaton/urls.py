@@ -16,8 +16,22 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django_distill import distill_path
+from landing import views
+
+def get_index():
+    # Distill function для главной страницы
+    return None
+
+def get_sponsors():
+    # Distill function для страницы спонсоров
+    return None
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls),  # Оставляем admin для разработки
+    # Дистиллированные пути
+    distill_path('', views.home, name='home', distill_func=get_index),
+    distill_path('sponsors/', views.sponsors, name='sponsors', distill_func=get_sponsors),
+    # Обычные динамические пути для разработки
     path('', include('landing.urls')),
 ]
