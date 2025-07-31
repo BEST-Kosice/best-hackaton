@@ -6,26 +6,29 @@
 {% block content %}
 <!-- Hero Section -->
 <section class="pt-20 pb-12 sm:pt-24 sm:pb-16 md:pt-32 md:pb-24 bg-gradient-to-r from-[#FEF9E3]/50 to-[#FFC50E]/25">
-    <div class="container mx-auto px-4 sm:px-6 md:px-8">
+    <div class="mx-[150px]"><!-- Added 150px margins on both sides -->
         <div class="flex flex-col lg:flex-row items-center">
-            <div class="w-full lg:w-1/2 mb-8 lg:mb-0 text-center lg:text-left">
-                <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#990033] mb-3 sm:mb-4">Code4BEST</h1>
-                <h2 class="text-lg sm:text-xl md:text-2xl font-medium mb-2">Hackathon študentov pre študentov</h2>
-                <p class="text-base sm:text-lg text-[#17789C] mb-6">«Kde sa z nápadov stávajú prototypy»</p>
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mb-6 sm:mb-8">
+            <div class="w-full lg:w-1/2 flex justify-center mt-8 lg:mt-0">
+                <div class="relative">
+                    <img alt="Code4BEST Full Logo" loading="lazy" width="560" height="440" class="w-[495px] h-[440px] object-contain" style="color:transparent" src="{% static 'images/fulllogo.svg' %}"><!-- Logo height 440px and half width -->
+                </div>
+            </div>
+            <div class="w-full lg:w-1/2 mb-8 lg:mb-0 text-center lg:text-left flex flex-col justify-center" style="height: 440px;"><!-- Container aligned to logo height -->
+                <h2 class="text-lg sm:text-xl md:text-2xl font-medium mb-2 mt-5 text-[#17789c]">Hackathon študentov pre študentov</h2><!-- Added margin-top to move text down -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mb-6 sm:mb-8 text-[#17789c]"><!-- Text content with color changed -->
                     <div class="flex items-center justify-center lg:justify-start">
                         <svg xmlns="http://www.w3.org/2000/svg" class="mr-2 text-[#990033] h-5 w-5 sm:h-6 sm:w-6 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
                             <circle cx="12" cy="10" r="3"></circle>
                         </svg>
-                        <span class="text-sm sm:text-base">TUKE, Univerzitná knižnica</span>
+                        <span class="text-sm sm:text-base text-[#17789c]">TUKE, Univerzitná knižnica</span>
                     </div>
                     <div class="flex items-center justify-center lg:justify-start">
                         <svg xmlns="http://www.w3.org/2000/svg" class="mr-2 text-[#990033] h-5 w-5 sm:h-6 sm:w-6 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <circle cx="12" cy="12" r="10"></circle>
                             <polyline points="12 6 12 12 16 14"></polyline>
                         </svg>
-                        <span class="text-sm sm:text-base">24 hodín</span>
+                        <span class="text-sm sm:text-base text-[#17789c]">24 hodín</span>
                     </div>
                     <div class="flex items-center justify-center lg:justify-start">
                         <svg xmlns="http://www.w3.org/2000/svg" class="mr-2 text-[#990033] h-5 w-5 sm:h-6 sm:w-6 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -34,7 +37,7 @@
                             <line x1="8" y1="2" x2="8" y2="6"></line>
                             <line x1="3" y1="10" x2="21" y2="10"></line>
                         </svg>
-                        <span class="text-sm sm:text-base">Február 2026</span>
+                        <span class="text-sm sm:text-base text-[#17789c]">Február 2026</span>
                     </div>
                     <div class="flex items-center justify-center lg:justify-start">
                         <svg xmlns="http://www.w3.org/2000/svg" class="mr-2 text-[#990033] h-5 w-5 sm:h-6 sm:w-6 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -43,45 +46,40 @@
                             <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
                             <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
                         </svg>
-                        <span class="text-sm sm:text-base">100 participantov</span>
+                        <span class="text-sm sm:text-base text-[#17789c]">100 participantov</span>
                     </div>
                 </div>
-                <!-- Countdown Timer -->
-                <div class="bg-[#17789C]/75 backdrop-blur-sm p-4 sm:p-6 rounded-lg shadow-lg mb-6 sm:mb-8">
-                    <h3 class="text-base sm:text-lg font-bold text-white mb-3 sm:mb-4">Registrácia začína za:</h3>
-                    <div class="grid grid-cols-4 gap-2 sm:gap-4 text-center" id="countdown">
-                        <div class="bg-[#990033] text-white p-2 sm:p-3 rounded-lg">
-                            <span class="text-lg sm:text-2xl font-bold block" id="days">00</span>
-                            <span class="text-xs block">Dní</span>
-                        </div>
-                        <div class="bg-[#990033] text-white p-2 sm:p-3 rounded-lg">
-                            <span class="text-lg sm:text-2xl font-bold block" id="hours">00</span>
-                            <span class="text-xs block">Hodín</span>
-                        </div>
-                        <div class="bg-[#990033] text-white p-2 sm:p-3 rounded-lg">
-                            <span class="text-lg sm:text-2xl font-bold block" id="minutes">00</span>
-                            <span class="text-xs block">Minút</span>
-                        </div>
-                        <div class="bg-[#990033] text-white p-2 sm:p-3 rounded-lg">
-                            <span class="text-lg sm:text-2xl font-bold block" id="seconds">00</span>
-                            <span class="text-xs block">Sekúnd</span>
-                        </div>
-                    </div>
+            </div>
+        </div>
+        <!-- Countdown Timer -->
+        <div class="bg-[#17789C]/75 backdrop-blur-sm rounded-lg shadow-lg px-[24px] pt-[24px] pb-[24px] mb-[21px] w-full">
+            <h3 class="text-base sm:text-lg font-bold text-white mb-3 sm:mb-4 text-center">Registrácia začína za:</h3>
+            <div class="grid grid-cols-4 gap-6 text-center" id="countdown">
+                <div class="bg-[#990033] text-white p-2 sm:p-3 rounded-lg">
+                    <span class="text-lg sm:text-2xl font-bold block" id="days">00</span>
+                    <span class="text-xs block">Dní</span>
                 </div>
-                <div class="flex flex-col sm:flex-row gap-3 sm:gap-4">
-                    <a href="#participants" class="inline-flex justify-center items-center px-4 sm:px-6 py-3 border border-transparent text-sm sm:text-base font-medium rounded-md text-white bg-[#990033] hover:bg-[#800029] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#990033] transition-colors">
-                        Registrovať sa
-                    </a>
-                    <a href="#sponsors" class="inline-flex justify-center items-center px-4 sm:px-6 py-3 border border-transparent text-sm sm:text-base font-medium rounded-md text-white bg-[#990033] hover:bg-[#800029] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#990033] transition-colors">
-                        Staňte sa partnerom
-                    </a>
+                <div class="bg-[#990033] text-white p-2 sm:p-3 rounded-lg">
+                    <span class="text-lg sm:text-2xl font-bold block" id="hours">00</span>
+                    <span class="text-xs block">Hodín</span>
+                </div>
+                <div class="bg-[#990033] text-white p-2 sm:p-3 rounded-lg">
+                    <span class="text-lg sm:text-2xl font-bold block" id="minutes">00</span>
+                    <span class="text-xs block">Minút</span>
+                </div>
+                <div class="bg-[#990033] text-white p-2 sm:p-3 rounded-lg">
+                    <span class="text-lg sm:text-2xl font-bold block" id="seconds">00</span>
+                    <span class="text-xs block">Sekúnd</span>
                 </div>
             </div>
-            <div class="w-full lg:w-1/2 flex justify-center mt-8 lg:mt-0">
-                <div class="relative">
-                    <img alt="BEST Košice Mascot" loading="lazy" width="250" height="250" class="w-48 h-48 sm:w-64 sm:h-64 md:w-72 md:h-72 lg:w-80 lg:h-80 float object-contain" style="color:transparent" src="{% static 'images/best-monkey.png' %}">
-                </div>
-            </div>
+        </div>
+        <div class="flex flex-col sm:flex-row justify-between w-full gap-[21px] mt-[30px]">
+            <a href="#participants" class="flex-1 inline-flex justify-center items-center px-4 sm:px-6 py-3 text-sm sm:text-base font-medium rounded-md text-white relative bg-[#990033] hover:bg-[#990033] focus:outline-none transform hover:-translate-y-1 transition-all" style="box-shadow: 0 -6px 0 #800029 inset, 0 6px 0 #800029, 0 3px 8px rgba(0,0,0,0.4); transform-style: preserve-3d;">
+                Registrovať sa
+            </a>
+            <a href="#sponsors" class="flex-1 inline-flex justify-center items-center px-4 sm:px-6 py-3 text-sm sm:text-base font-medium rounded-md text-white relative bg-[#990033] hover:bg-[#990033] focus:outline-none transform hover:-translate-y-1 transition-all" style="box-shadow: 0 -6px 0 #800029 inset, 0 6px 0 #800029, 0 3px 8px rgba(0,0,0,0.4); transform-style: preserve-3d;">
+                Staňte sa partnerom
+            </a>
         </div>
     </div>
 </section>
@@ -259,37 +257,37 @@
                             <svg class="mr-2 text-[#990033] h-4 w-4 sm:h-5 sm:w-5 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <polyline points="6 9 12 15 18 9"></polyline>
                             </svg>
-                            <span class="text-sm sm:text-base">Vzdelávanie</span>
+                            <span class="text-sm sm:text-base text-[#17789c]">Vzdelávanie</span>
                         </li>
                         <li class="flex items-center">
                             <svg class="mr-2 text-[#990033] h-4 w-4 sm:h-5 sm:w-5 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <polyline points="6 9 12 15 18 9"></polyline>
                             </svg>
-                            <span class="text-sm sm:text-base">Inovácie</span>
+                            <span class="text-sm sm:text-base text-[#17789c]">Inovácie</span>
                         </li>
                         <li class="flex items-center">
                             <svg class="mr-2 text-[#990033] h-4 w-4 sm:h-5 sm:w-5 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <polyline points="6 9 12 15 18 9"></polyline>
                             </svg>
-                            <span class="text-sm sm:text-base">Spolupráca</span>
+                            <span class="text-sm sm:text-base text-[#17789c]">Spolupráca</span>
                         </li>
                         <li class="flex items-center">
                             <svg class="mr-2 text-[#990033] h-4 w-4 sm:h-5 sm:w-5 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <polyline points="6 9 12 15 18 9"></polyline>
                             </svg>
-                            <span class="text-sm sm:text-base">Diverzita</span>
+                            <span class="text-sm sm:text-base text-[#17789c]">Diverzita</span>
                         </li>
                         <li class="flex items-center">
                             <svg class="mr-2 text-[#990033] h-4 w-4 sm:h-5 sm:w-5 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <polyline points="6 9 12 15 18 9"></polyline>
                             </svg>
-                            <span class="text-sm sm:text-base">Udržateľnosť</span>
+                            <span class="text-sm sm:text-base text-[#17789c]">Udržateľnosť</span>
                         </li>
                         <li class="flex items-center">
                             <svg class="mr-2 text-[#990033] h-4 w-4 sm:h-5 sm:w-5 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <polyline points="6 9 12 15 18 9"></polyline>
                             </svg>
-                            <span class="text-sm sm:text-base">Komunita</span>
+                            <span class="text-sm sm:text-base text-[#17789c]">Komunita</span>
                         </li>
                     </ul>
                 </div>

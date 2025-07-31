@@ -1,21 +1,21 @@
 {% load static %}
 
 <!-- Main Navigation -->
-<nav id="mainNav" class="fixed top-0 left-0 right-0 z-50 py-4">
-    <div class="container mx-auto px-4 md:px-6">
+<nav id="mainNav" class="fixed top-0 left-0 right-0 z-50 h-[100px] flex items-center">
+    <div class="container mx-[150px] px-auto"><!-- Minimum 150px padding from left and right -->
         <div class="flex justify-between items-center">
             <!-- Logo -->
             <a href="{% url 'home' %}" class="flex items-center space-x-2">
-                <img src="{% static 'images/best-logo.png' %}" alt="BEST Košice Logo" class="h-10">
+                <img src="{% static 'images/logomark.svg' %}" alt="Logo" class="h-[57px]"><!-- Logo size 57px -->
             </a>
 
             <!-- Desktop Menu -->
-            <div class="hidden md:flex items-center space-x-8">
-                <a href="{% url 'home' %}#participants" class="nav-link font-medium">Pre účastníkov</a>
-                <a href="{% url 'home' %}#sponsors" class="nav-link font-medium">Pre sponzorov</a>
-                <a href="{% url 'home' %}#about-project" class="nav-link font-medium">O projekte</a>
-                <a href="{% url 'home' %}#about-us" class="nav-link font-medium">O nás</a>
-                <a href="{% url 'home' %}#contact" class="nav-link font-medium">Kontakt</a>
+            <div class="hidden md:flex items-center space-x-[42px] text-[#f2edda] my-[37.5px]"><!-- Margin of 42px, vertical spacing 37.5px -->
+                <a href="{% url 'home' %}#participants" class="nav-link font-medium h-[25px] flex items-center"><!-- Text height 25px -->Pre účastníkov</a>
+                <a href="{% url 'home' %}#sponsors" class="nav-link font-medium h-[25px] flex items-center"><!-- Text height 25px -->Pre sponzorov</a>
+                <a href="{% url 'home' %}#about-project" class="nav-link font-medium h-[25px] flex items-center"><!-- Text height 25px -->O projekte</a>
+                <a href="{% url 'home' %}#about-us" class="nav-link font-medium h-[25px] flex items-center"><!-- Text height 25px -->O nás</a>
+                <a href="{% url 'home' %}#contact" class="nav-link font-medium h-[25px] flex items-center"><!-- Text height 25px -->Kontakt</a>
             </div>
 
             <!-- Mobile Menu Button -->

@@ -1,8 +1,8 @@
 :root {
     --primary: #990033;
-    --secondary: #17789C;
+    /*--secondary: #17789C;
     --background: #FEF9E3;
-    --accent: #FFC50E;
+    --accent: #FFC50E;*/
 }
 
 * {
@@ -169,7 +169,7 @@ a {
 /* Navbar scroll effect */
 #mainNav {
     transition: all 0.3s ease;
-    background-color: #981a36;
+    background-color: transparent;
 }
 
 #mainNav.scrolled {

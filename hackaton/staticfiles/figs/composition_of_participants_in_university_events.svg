@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="853" height="487" viewBox="0 0 853 487"
+    style="fill:none;stroke:none;fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"
+    version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style class="text-font-style fontImports" data-font-family="Arial"></style>
+    <g id="items" style="isolation: isolate">
+        <g id="blend" style="mix-blend-mode: normal">
+            <g id="g-root-sy_1_gauge-filled-1_1414e988nu39c-fill" data-item-order="-65828"
+                transform="translate(194.255615234375, 158)">
+                <g id="sy_1_gauge-filled-1_1414e988nu39c-fill" stroke="none" fill="#68a1ff">
+                    <g>
+                        <path
+                            d="M 130.00238 10C 187.251291 10.000179 236.527768 50.440586 247.696313 106.589501C 258.864858 162.738417 228.814879 218.957598 175.92373 240.865666C 123.03258 262.773733 62.03117 244.268989 30.225497 196.668187C -1.580175 149.067386 4.668206 85.628003 45.149382 45.147002L 102.00138 101.999C 88.642801 115.357977 86.581217 136.293046 97.077407 152.00113C 107.573597 167.709214 127.704219 173.815383 145.15817 166.585342C 162.612121 159.355301 172.528222 140.802722 168.842171 122.273638C 165.156121 103.744555 148.894538 90.399586 130.002373 90.399995L 130.00238 10Z">
+                        </path>
+                    </g>
+                </g>
+            </g>
+            <g id="g-root-sy_2_gauge-filled-2_qpnvvw8nu4u9-fill" data-item-order="-65824"
+                transform="translate(229.40499877929688, 158)">
+                <g id="sy_2_gauge-filled-2_qpnvvw8nu4u9-fill" stroke="none" fill="#5d83c0">
+                    <g>
+                        <path
+                            d="M 9.999997 45.147C 32.504441 22.642657 63.026985 9.999901 94.853003 10L 94.852997 90.4C 84.350504 90.400223 74.278257 94.572502 66.851991 101.998995L 9.999997 45.147Z">
+                        </path>
+                    </g>
+                </g>
+            </g>
+            <g id="g-root-tx__1hi76ek8nvjt3-fill" data-item-order="0"
+                transform="translate(26.25799560546875, 73.99996948242188)">
+                <g id="tx__1hi76ek8nvjt3-fill" stroke="none" fill="#000000">
+                    <g><text style="font: bold 25px &quot;Arial&quot;, Helvetica, sans-serif; white-space: pre;"
+                            font-weight="bold" font-size="25px" font-family="'Arial', Helvetica, sans-serif">
+                            <tspan x="11.84" y="42.5" dominant-baseline="ideographic">Composition of participants in university events</tspan>
+                        </text></g>
+                </g>
+            </g>
+            <g id="g-root-tx_1250_zof9kc8nww06-fill" data-item-order="0" transform="translate(26, 137.57598876953125)">
+                <g id="tx_1250_zof9kc8nww06-fill" stroke="none" fill="#000000">
+                    <g><text style="font: 20px &quot;Arial&quot;, Helvetica, sans-serif; white-space: pre;"
+                            font-size="20px" font-family="'Arial', Helvetica, sans-serif">
+                            <tspan x="16.85" y="34" dominant-baseline="ideographic">12.50% Other participants</tspan>
+                        </text></g>
+                </g>
+            </g>
+            <g id="g-root-tx_8750_18gbfak8nwx6t-fill" data-item-order="0"
+                transform="translate(280.5159912109375, 394.42401123046875)">
+                <g id="tx_8750_18gbfak8nwx6t-fill" stroke="none" fill="#000000">
+                    <g><text style="font: 20px &quot;Arial&quot;, Helvetica, sans-serif; white-space: pre;"
+                            font-size="40px" font-family="'Arial', Helvetica, sans-serif">
+                            <tspan x="10" y="34" dominant-baseline="ideographic">87.50% Bachelor's and Master's students
+                            </tspan>
+                        </text></g>
+                </g>
+            </g>
+            <g id="g-root-sy_1_gauge-filled-1_1414e988nu39c-stroke" data-item-order="-65828"
+                transform="translate(194.255615234375, 158)">
+                <g id="sy_1_gauge-filled-1_1414e988nu39c-stroke" fill="none" stroke-linecap="butt"
+                    stroke-linejoin="miter" stroke-miterlimit="4" stroke="#68a1ff" stroke-width="1">
+                    <g>
+                        <path
+                            d="M 130.00238 10C 187.251291 10.000179 236.527768 50.440586 247.696313 106.589501C 258.864858 162.738417 228.814879 218.957598 175.92373 240.865666C 123.03258 262.773733 62.03117 244.268989 30.225497 196.668187C -1.580175 149.067386 4.668206 85.628003 45.149382 45.147002L 102.00138 101.999C 88.642801 115.357977 86.581217 136.293046 97.077407 152.00113C 107.573597 167.709214 127.704219 173.815383 145.15817 166.585342C 162.612121 159.355301 172.528222 140.802722 168.842171 122.273638C 165.156121 103.744555 148.894538 90.399586 130.002373 90.399995L 130.00238 10Z">
+                        </path>
+                    </g>
+                </g>
+            </g>
+            <g id="g-root-sy_2_gauge-filled-2_qpnvvw8nu4u9-stroke" data-item-order="-65824"
+                transform="translate(229.40499877929688, 158)">
+                <g id="sy_2_gauge-filled-2_qpnvvw8nu4u9-stroke" fill="none" stroke-linecap="butt"
+                    stroke-linejoin="miter" stroke-miterlimit="4" stroke="#5d83c0" stroke-width="1">
+                    <g>
+                        <path
+                            d="M 9.999997 45.147C 32.504441 22.642657 63.026985 9.999901 94.853003 10L 94.852997 90.4C 84.350504 90.400223 74.278257 94.572502 66.851991 101.998995L 9.999997 45.147Z">
+                        </path>
+                    </g>
+                </g>
+            </g>
+            <g id="g-root-tx__1hi76ek8nvjt3-stroke" data-item-order="0"
+                transform="translate(26.25799560546875, 73.99996948242188)"></g>
+            <g id="g-root-tx_1250_zof9kc8nww06-stroke" data-item-order="0"
+                transform="translate(26, 137.57598876953125)"></g>
+            <g id="g-root-tx_8750_18gbfak8nwx6t-stroke" data-item-order="0"
+                transform="translate(362.5159912109375, 394.42401123046875)"></g>
+        </g>
+    </g>
+</svg>
