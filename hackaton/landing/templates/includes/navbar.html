@@ -1,68 +1,86 @@
 {% load static %}
 
 <!-- Main Navigation -->
-<nav id="mainNav" class="fixed top-0 left-0 right-0 z-50 h-[100px] flex items-center">
-    <div class="container mx-[150px] px-auto"><!-- Minimum 150px padding from left and right -->
-        <div class="flex justify-between items-center">
-            <!-- Logo -->
-            <a href="{% url 'home' %}" class="flex items-center space-x-2">
-                <img src="{% static 'images/logomark.svg' %}" alt="Logo" class="h-[57px]"><!-- Logo size 57px -->
-            </a>
-
-            <!-- Desktop Menu -->
-            <div class="hidden md:flex items-center space-x-[42px] text-[#f2edda] my-[37.5px]"><!-- Margin of 42px, vertical spacing 37.5px -->
-                <a href="{% url 'home' %}#participants" class="nav-link font-medium h-[25px] flex items-center"><!-- Text height 25px -->Pre účastníkov</a>
-                <a href="{% url 'home' %}#sponsors" class="nav-link font-medium h-[25px] flex items-center"><!-- Text height 25px -->Pre sponzorov</a>
-                <a href="{% url 'home' %}#about-project" class="nav-link font-medium h-[25px] flex items-center"><!-- Text height 25px -->O projekte</a>
-                <a href="{% url 'home' %}#about-us" class="nav-link font-medium h-[25px] flex items-center"><!-- Text height 25px -->O nás</a>
-                <a href="{% url 'home' %}#contact" class="nav-link font-medium h-[25px] flex items-center"><!-- Text height 25px -->Kontakt</a>
+<nav id="mainNav" class="fixed top-0 left-0 right-0 z-50 bg-[#981a36] shadow-lg">
+    <div class="max-w-full px-6 sm:px-8 lg:px-12">
+        <div class="flex justify-between items-center h-20">
+            <!-- Logo positioned closer to navigation -->
+            <div class="flex-shrink-0 flex items-center ml-6 lg:ml-12">
+                <a href="{% url 'home' %}" class="flex items-center">
+                    <img src="{% static 'images/logomark.svg' %}" alt="Code4BEST Logo" class="h-14 w-14">
+                </a>
             </div>
 
-            <!-- Mobile Menu Button -->
-            <button class="md:hidden" onclick="toggleMobileMenu()">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <line x1="3" y1="12" x2="21" y2="12"></line>
-                    <line x1="3" y1="6" x2="21" y2="6"></line>
-                    <line x1="3" y1="18" x2="21" y2="18"></line>
-                </svg>
-            </button>
+            <!-- Desktop Navigation moved slightly to the right -->
+            <div class="hidden md:block flex-1">
+                <div class="flex items-center justify-center space-x-8 lg:space-x-10 ml-8 lg:ml-12">
+                    <a href="{% url 'home' %}#participants" class="nav-link text-white hover:text-[#FFC50E] px-4 py-2 text-xl font-medium transition-colors duration-200">
+                        Pre účastníkov
+                    </a>
+                    <a href="{% url 'home' %}#sponsors" class="nav-link text-white hover:text-[#FFC50E] px-4 py-2 text-xl font-medium transition-colors duration-200">
+                        Pre sponzorov
+                    </a>
+                    <a href="{% url 'home' %}#about-project" class="nav-link text-white hover:text-[#FFC50E] px-4 py-2 text-xl font-medium transition-colors duration-200">
+                        O projekte
+                    </a>
+                    <a href="{% url 'home' %}#about-us" class="nav-link text-white hover:text-[#FFC50E] px-4 py-2 text-xl font-medium transition-colors duration-200">
+                        O nás
+                    </a>
+                    <a href="{% url 'home' %}#contact" class="nav-link text-white hover:text-[#FFC50E] px-4 py-2 text-xl font-medium transition-colors duration-200">
+                        Kontakt
+                    </a>
+                </div>
+            </div>
+
+            <!-- Empty space to balance the layout -->
+            <div class="hidden md:block w-20"></div>
+
+            <!-- Mobile menu button -->
+            <div class="md:hidden">
+                <button type="button" onclick="toggleMobileMenu()" class="text-white hover:text-[#FFC50E] focus:outline-none focus:text-[#FFC50E]" aria-label="Toggle menu">
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile Navigation Menu -->
+    <div id="mobileMenu" class="md:hidden mobile-menu hidden">
+        <div class="px-2 pt-2 pb-3 space-y-1 bg-[#981a36] border-t border-[#7a0029]">
+            <a href="{% url 'home' %}#participants" onclick="toggleMobileMenu()" class="block px-3 py-2 text-white hover:text-[#FFC50E] text-base font-medium">
+                Pre účastníkov
+            </a>
+            <a href="{% url 'home' %}#sponsors" onclick="toggleMobileMenu()" class="block px-3 py-2 text-white hover:text-[#FFC50E] text-base font-medium">
+                Pre sponzorov
+            </a>
+            <a href="{% url 'home' %}#about-project" onclick="toggleMobileMenu()" class="block px-3 py-2 text-white hover:text-[#FFC50E] text-base font-medium">
+                O projekte
+            </a>
+            <a href="{% url 'home' %}#about-us" onclick="toggleMobileMenu()" class="block px-3 py-2 text-white hover:text-[#FFC50E] text-base font-medium">
+                O nás
+            </a>
+            <a href="{% url 'home' %}#contact" onclick="toggleMobileMenu()" class="block px-3 py-2 text-white hover:text-[#FFC50E] text-base font-medium">
+                Kontakt
+            </a>
         </div>
     </div>
 </nav>
 
-<!-- Mobile Menu -->
-<div id="mobileMenu" class="mobile-menu fixed top-0 right-0 h-full w-64 bg-white z-50 p-6 shadow-xl transform translate-x-full">
-    <button class="absolute top-4 right-4" onclick="toggleMobileMenu()">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <line x1="18" y1="6" x2="6" y2="18"></line>
-            <line x1="6" y1="6" x2="18" y2="18"></line>
-        </svg>
-    </button>
-
-    <div class="flex flex-col space-y-6 mt-16">
-        <a href="{% url 'home' %}#participants" onclick="toggleMobileMenu()" class="hover:text-[#990033] font-medium">Pre účastníkov</a>
-        <a href="{% url 'home' %}#sponsors" onclick="toggleMobileMenu()" class="hover:text-[#990033] font-medium">Pre sponzorov</a>
-        <a href="{% url 'home' %}#about-project" onclick="toggleMobileMenu()" class="hover:text-[#990033] font-medium">O projekte</a>
-        <a href="{% url 'home' %}#about-us" onclick="toggleMobileMenu()" class="hover:text-[#990033] font-medium">O nás</a>
-        <a href="{% url 'home' %}#contact" onclick="toggleMobileMenu()" class="hover:text-[#990033] font-medium">Kontakt</a>
-    </div>
-</div>
-
 <script>
     function toggleMobileMenu() {
         const menu = document.getElementById('mobileMenu');
-        const nav = document.getElementById('mainNav');
-        menu.classList.toggle('translate-x-full');
-        nav.classList.toggle('scrolled');
+        menu.classList.toggle('hidden');
     }
 
     // Add scroll effect to navbar
     window.addEventListener('scroll', function() {
         const nav = document.getElementById('mainNav');
         if (window.scrollY > 50) {
-            nav.classList.add('scrolled');
+            nav.classList.add('bg-opacity-95');
         } else {
-            nav.classList.remove('scrolled');
+            nav.classList.remove('bg-opacity-95');
         }
     });
 </script>
