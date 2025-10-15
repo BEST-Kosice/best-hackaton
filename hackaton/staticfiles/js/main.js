@@ -46,52 +46,14 @@ function updateCountdown() {
     }
 }
 
-// Smooth scroll for anchor links
-function initSmoothScroll() {
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function(e) {
-            e.preventDefault();
-            const targetId = this.getAttribute('href').slice(1);
-            if (!targetId) return; // Ignore empty hashes
-            
-            const targetElement = document.getElementById(targetId);
-            
-            if (targetElement) {
-                // Get header height for offset
-                const header = document.querySelector('header');
-                const headerHeight = header ? header.offsetHeight : 0;
-                
-                // Calculate target position with offset
-                const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - headerHeight;
-                
-                // Smooth scroll with easing
-                window.scrollTo({
-                    top: targetPosition,
-                    behavior: 'smooth'
-                });
-
-                // Update URL without jumping
-                history.pushState(null, null, `#${targetId}`);
-                
-                // Close mobile menu if open
-                const mobileMenu = document.getElementById('mobile-menu');
-                if (mobileMenu && !mobileMenu.classList.contains('hidden')) {
-                    mobileMenu.classList.add('hidden');
-                }
-            }
-        });
-    });
-}
-
 // Handle initial hash in URL
 function handleInitialHash() {
     const hash = window.location.hash;
-    if (hash && hash !== '#' && hash.length > 1) { // Проверяем, что хэш не пустой и не просто #
+    if (hash && hash !== '#' && hash.length > 1) {
         const targetId = hash.slice(1);
         const targetElement = document.getElementById(targetId);
         
         if (targetElement) {
-            // Небольшая задержка, чтобы дать странице полностью загрузиться
             setTimeout(() => {
                 const header = document.querySelector('header');
                 const headerHeight = header ? header.offsetHeight : 0;
@@ -112,16 +74,11 @@ function initTabs() {
     const tabsSection = document.querySelector('div[id="data-tabs"]');
     
     if (!tabsSection) {
-        console.log('No tabs section found');
         return; // No tabs section found
-    } else {
-        console.log('Tabs section found');
     }
     
     const tabButtons = tabsSection.querySelectorAll('button[role="tab"]');
     const tabPanels = tabsSection.querySelectorAll('div[role="tabpanel"]');
-    
-    console.log('Found', tabButtons.length, 'tab buttons and', tabPanels.length, 'tab panels');
     
     if (tabButtons.length === 0 || tabPanels.length === 0) {
         return; // No tabs found
@@ -130,7 +87,6 @@ function initTabs() {
     // Add click event listeners to each tab button
     tabButtons.forEach((button, index) => {
         button.addEventListener('click', function() {
-            console.log('Tab clicked:', this.textContent.trim(), 'index:', index);
             
             // Deactivate all buttons and hide all panels
             tabButtons.forEach(btn => {
@@ -151,14 +107,11 @@ function initTabs() {
             if (tabPanels[index]) {
                 tabPanels[index].setAttribute('data-state', 'active');
                 tabPanels[index].removeAttribute('hidden');
-                console.log('Showing panel at index:', index);
             } else {
                 console.error('Panel not found at index:', index);
             }
         });
     });
-    
-    console.log('Tab functionality initialized with direct approach');
 }
 
 // Initialize all functionality
