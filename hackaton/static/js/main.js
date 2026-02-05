@@ -25,7 +25,7 @@ function updateCountdown() {
         return;
     }
     
-    const registrationDate = new Date('2026-01-15T00:00:00').getTime();
+    const registrationDate = new Date('2026-02-31T00:00:00').getTime();
     const now = new Date().getTime();
     const distance = registrationDate - now;
 
