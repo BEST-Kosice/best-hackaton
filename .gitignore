@@ -176,3 +176,6 @@ cython_debug/
 vercel/
 *.zip
 *.tar.gz
+node_modules
+
+.expo/
