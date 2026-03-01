@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Upheaval';
+  src: url('./assets/fonts/upheavtt.woff2') format('woff2'),
+    url('./assets/fonts/upheavtt.woff') format('woff'),
+    url('./assets/fonts/upheavtt.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-upheaval: "Upheaval", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.section-title {
+  font-family: var(--font-upheaval);
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+/* Anchor offset for sticky header */
+section[id] {
+  scroll-margin-top: 96px;
+}
+
+/* Fade-in on scroll */
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.fade-in-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Section title underline animation */
+.section-underline {
+  display: block;
+  width: 80px;
+  height: 3px;
+  margin: 12px auto 0;
+  background: #ffc50e;
+  border-radius: 2px;
+  transform: scaleX(0);
+  transition: transform 0.5s ease-out 0.2s;
+}
+
+.visible .section-underline {
+  transform: scaleX(1);
+}
+
+/* Floating animation */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+/* Modal animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.97);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
