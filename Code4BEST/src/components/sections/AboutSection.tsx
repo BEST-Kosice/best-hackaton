@@ -1,8 +1,11 @@
 import { content } from "../../content/content";
 import { Section } from "../../ui/Section";
 import { SectionTitle } from "../../ui/SectionTitle";
-import localhostLogo from "../../assets/logos/LocalHost.png";
+import localhostLogo from "../../assets/logos/LocalHost_black.png";
+import BellyButtonLogo from "../../assets/logos/BellyButton.png";
 import tukeLogo from "../../assets/logos/TUKE.png";
+import tukePoint from "../../assets/logos/TUKEPoint.png"
+import Elevenlabs from "../../assets/logos/elevenlabs-symbol-black.png"
 import ipeckoLogo from "../../assets/logos/IPecko.png";
 
 export function AboutSection() {
@@ -49,6 +52,12 @@ export function AboutSection() {
                             <a href="https://www.tuke.sk" target="_blank" rel="noopener noreferrer" className="grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100">
                                 <img src={tukeLogo} alt="TUKE" className="h-16 md:h-20 w-auto object-contain" />
                             </a>
+                            <a href="https://www.instagram.com/tukepoint/" target="_blank" rel="noopener noreferrer" className="grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100">
+                                <img src={tukePoint} alt="TUKE Point" className="h-16 md:h-20 w-auto object-contain" />
+                            </a>
+                            <a href="https://elevenlabs.io" target="_blank" rel="noopener noreferrer" className="grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100">
+                                <img src={Elevenlabs} alt="ElevenLabs" className="h-16 md:h-20 w-auto object-contain" />
+                            </a>
                         </div>
                     </div>
 
@@ -68,6 +77,9 @@ export function AboutSection() {
                         <div className="flex flex-wrap justify-center gap-8 md:gap-12">
                             <a href="https://ipcko.sk" target="_blank" rel="noopener noreferrer" className="grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100">
                                 <img src={ipeckoLogo} alt="IPečko" className="h-12 md:h-16 w-auto object-contain" />
+                            </a>
+                            <a href="https://bellybutton.sk" target="_blank" rel="noopener noreferrer" className="grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100">
+                                <img src={BellyButtonLogo} alt="BellyButton" className="h-12 md:h-16 w-auto object-contain" />
                             </a>
                         </div>
                     </div>
