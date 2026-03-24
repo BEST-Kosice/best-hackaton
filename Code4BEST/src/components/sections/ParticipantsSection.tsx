@@ -43,8 +43,8 @@ export function ParticipantsSection() {
                             <div className="space-y-2">
                                 {schedule.friday.map((item, i) => (
                                     <div key={i} className="flex items-start gap-3">
-                                        <span className="text-sm font-bold text-[#981a36] w-14 flex-shrink-0 font-upheaval">{item.time}</span>
-                                        <span className="text-sm sm:text-base text-[#2d1810]">{item.activity}</span>
+                                        <span className="text-mb font-bold text-[#981a36] w-14 flex-shrink-0 font-upheaval">{item.time}</span>
+                                        <span className="text-mb sm:text-base text-[#2d1810]">{item.activity}</span>
                                     </div>
                                 ))}
                             </div>
@@ -55,8 +55,8 @@ export function ParticipantsSection() {
                             <div className="space-y-2">
                                 {schedule.saturday.map((item, i) => (
                                     <div key={i} className="flex items-start gap-3">
-                                        <span className="text-sm font-bold text-[#981a36] w-14 flex-shrink-0 font-upheaval">{item.time}</span>
-                                        <span className="text-sm sm:text-base text-[#2d1810]">{item.activity}</span>
+                                        <span className="text-mb font-bold text-[#981a36] w-14 flex-shrink-0 font-upheaval">{item.time}</span>
+                                        <span className="text-mb sm:text-base text-[#2d1810]">{item.activity}</span>
                                     </div>
                                 ))}
                             </div>

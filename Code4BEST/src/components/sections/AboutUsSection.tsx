@@ -1,5 +1,5 @@
 import { content } from "../../content/content";
-import { ChevronDownIcon, ExternalLinkIcon } from "../../assets/icons";
+import { PointIcon, ExternalLinkIcon } from "../../assets/icons";
 import { useScrollReveal } from "../../hooks/useScrollReveal";
 import bestLogo from "../../assets/logos/best-logo.png";
 
@@ -30,7 +30,8 @@ export function AboutUsSection() {
                             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                                 {aboutUs.values.map((value) => (
                                     <li key={value} className="flex items-center">
-                                        <ChevronDownIcon className="mr-2 text-[#981a36] h-4 w-4 sm:h-5 sm:w-5 flex-shrink-0" />
+                                        {/* <ChevronDownIcon className="mr-2 text-[#981a36] h-4 w-4 sm:h-5 sm:w-5 flex-shrink-0" /> */}
+                                        <PointIcon className="mr-2 text-[#981a36] h-4 w-4 sm:h-5 sm:w-5 flex-shrink-0" />
                                         <span className="text-sm sm:text-base text-[#17789c]">{value}</span>
                                     </li>
                                 ))}
