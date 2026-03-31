@@ -28,8 +28,9 @@ function useCountdown(targetDate: string) {
 }
 
 export function HeroSection() {
-    const { hero } = content;
+    const { hero, isRescheduled } = content;
     const countdown = useCountdown(hero.countdownDate);
+    const LockIcon = iconMap.lock;
     const [modalOpen, setModalOpen] = useState(false);
     const units = hero.countdownUnits;
 
@@ -75,53 +76,102 @@ export function HeroSection() {
                                 Hackathon študentov<br />pre študentov
                             </h2>
 
-                            <div className="grid grid-cols-2 gap-4 sm:gap-6 mb-8 sm:mb-12 md:mb-16 lg:mb-20 text-[#17789c]">
-                                {hero.infoItems.map((item) => {
-                                    const Icon = iconMap[item.icon];
-                                    return (
-                                        <div key={item.icon} className="flex items-center justify-center sm:justify-start">
-                                            <Icon className="mr-3 sm:mr-4 text-[#981a36] h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12 flex-shrink-0" />
-                                            <span className="text-base sm:text-lg md:text-xl lg:text-2xl text-[#17789c] leading-tight font-upheaval">
-                                                {item.value}<br />{item.label}
-                                            </span>
-                                        </div>
-                                    );
-                                })}
-                            </div>
+
+
+                            {!isRescheduled && (
+                                <div className="grid grid-cols-2 gap-4 sm:gap-6 mb-8 sm:mb-12 md:mb-16 lg:mb-20 text-[#17789c]">
+                                    {hero.infoItems.map((item) => {
+                                        const Icon = iconMap[item.icon];
+                                        return (
+                                            <div key={item.icon} className="flex items-center justify-center sm:justify-start">
+                                                <Icon className="mr-3 sm:mr-4 text-[#981a36] h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12 flex-shrink-0" />
+                                                <span className="text-base sm:text-lg md:text-xl lg:text-2xl text-[#17789c] leading-tight font-upheaval">
+                                                    {item.value}<br />{item.label}
+                                                </span>
+                                            </div>
+                                        );
+                                    })}
+                                </div>
+                            )}
                         </div>
                     </div>
 
                     {/* Countdown Timer */}
-                    <div className="bg-[#981a36] rounded-xl shadow-lg px-4 sm:px-6 py-6 sm:py-8 mb-6 sm:mb-8 md:mb-10 w-full max-w-4xl mx-auto">
-                        <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-[#ffc50e] mb-3 sm:mb-4 text-center font-upheaval">
-                            {hero.countdownLabel}
-                        </h3>
-                        <div className="grid grid-cols-4 gap-2 sm:gap-3 md:gap-4 lg:gap-6 text-center">
-                            {countdownBlocks.map((block) => (
-                                <div key={block.label} className="bg-[#17789c] text-[#ffc50e] p-2 sm:p-3 rounded-lg">
-                                    <span className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold block mb-1 font-upheaval">
-                                        {String(block.value).padStart(2, "0")}
-                                    </span>
-                                    <span className="text-xs sm:text-sm md:text-base lg:text-lg font-medium block text-white uppercase tracking-wider font-upheaval">
-                                        {block.label}
-                                    </span>
+                    {isRescheduled ? (
+                        /* Announcement block replacing countdown */
+                        <div className="bg-[#0c141d] border-2 border-[#ffc50e] rounded-xl font-mono text-[#ffc50e] shadow-[0_0_25px_rgba(255,197,14,0.15)] relative overflow-hidden group mb-6 sm:mb-8 md:mb-10 w-full max-w-4xl mx-auto transition-all duration-500 animate-[fadeIn_0.5s_ease-out]">
+                            <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-[#ffc50e]/50 to-transparent animate-scan" />
+                            <div className="p-5 sm:p-8">
+                                <div className="flex items-center gap-3 mb-6">
+                                    <div className="w-3 h-3 bg-red-500 rounded-full animate-pulse shadow-[0_0_10px_rgba(239,68,68,0.8)]" />
+                                    <span className="text-xl sm:text-2xl font-bold uppercase tracking-[0.2em]">{hero.rescheduledAnnouncement.title}</span>
                                 </div>
-                            ))}
+                                
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                                    <div>
+                                        <p className="text-xs sm:text-sm mb-6 leading-relaxed opacity-90 text-[#f2edda] font-medium uppercase tracking-wider">
+                                            {hero.rescheduledAnnouncement.message}
+                                        </p>
+                                        <div className="space-y-3 text-[10px] sm:text-xs">
+                                            <div className="flex gap-4 items-center">
+                                                <span className="opacity-40 font-bold min-w-[100px]">&gt; STATUS</span>
+                                                <span className="bg-red-500/20 text-red-500 px-3 py-1 rounded border border-red-500/30 font-bold uppercase tracking-widest">{hero.rescheduledAnnouncement.status}</span>
+                                            </div>
+                                            <div className="flex gap-4 items-center">
+                                                <span className="opacity-40 font-bold min-w-[100px]">&gt; TIMEFRAME</span>
+                                                <span className="bg-blue-500/20 text-blue-400 px-3 py-1 rounded border border-blue-500/30 font-bold uppercase tracking-widest">{hero.rescheduledAnnouncement.timeframe}</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="flex flex-col justify-between p-4 bg-white/5 rounded-lg border border-white/10 relative">
+                                        <div className="mb-4">
+                                            <span className="text-[10px] uppercase font-bold text-[#ffc50e] opacity-70 block mb-2 tracking-widest">// kontaktujte nás</span>
+                                            <p className="text-xs sm:text-sm text-[#f2edda] font-medium leading-relaxed">
+                                                {hero.rescheduledAnnouncement.contact}
+                                            </p>
+                                        </div>
+                                        <p className="text-[10px] sm:text-xs italic opacity-40 text-[#f2edda] border-t border-white/10 pt-3 flex items-center">
+                                            <span className="mr-2">■</span> {hero.rescheduledAnnouncement.outro}
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                    ) : (
+                        /* Countdown Timer */
+                        <div className="bg-[#981a36] rounded-xl shadow-lg px-4 sm:px-6 py-6 sm:py-8 mb-6 sm:mb-8 md:mb-10 w-full max-w-4xl mx-auto border-2 border-transparent">
+                            <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-[#ffc50e] mb-3 sm:mb-4 text-center font-upheaval">
+                                {countdown.days === 0 && countdown.hours === 0 && countdown.minutes === 0 && countdown.seconds === 0 ? "REGISTRÁCIA UKONČENÁ" : hero.countdownLabelOriginal}
+                            </h3>
+                            <div className={`grid grid-cols-4 gap-2 sm:gap-3 md:gap-4 lg:gap-6 text-center ${countdown.days === 0 && countdown.hours === 0 && countdown.minutes === 0 && countdown.seconds === 0 ? 'opacity-30 grayscale' : ''}`}>
+                                {countdownBlocks.map((block) => (
+                                    <div key={block.label} className="bg-[#17789c] text-[#ffc50e] p-2 sm:p-3 rounded-lg shadow-inner">
+                                        <span className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold block mb-1 font-upheaval">
+                                            {String(block.value).padStart(2, "0")}
+                                        </span>
+                                        <span className="text-xs sm:text-sm md:text-base lg:text-lg font-medium block text-white uppercase tracking-wider font-upheaval">
+                                            {block.label}
+                                        </span>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    )}
 
                     {/* Action Buttons */}
                     <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6 mt-4 sm:mt-6 max-w-4xl mx-auto">
                         <div className="flex-1">
                             <button
-                                onClick={() => setModalOpen(true)}
-                                className="inline-flex justify-center items-center px-4 sm:px-5 md:px-6 py-3 sm:py-4 text-lg sm:text-xl md:text-2xl font-medium rounded-md text-[#ffc50e] bg-[#981a36] hover:bg-[#5c1021] focus:outline-none transform hover:-translate-y-1 transition-all duration-200 ease-in-out font-upheaval w-full"
+                                onClick={() => !isRescheduled && setModalOpen(true)}
+                                disabled={isRescheduled}
+                                className={`inline-flex justify-center items-center px-4 sm:px-5 md:px-6 py-3 sm:py-4 text-lg sm:text-xl md:text-2xl font-medium rounded-md text-[#ffc50e] bg-[#981a36] ${isRescheduled ? 'opacity-60 cursor-not-allowed grayscale-[0.5]' : 'hover:bg-[#5c1021] transform hover:-translate-y-1 transition-all duration-200 ease-in-out cursor-pointer'} font-upheaval w-full`}
                                 style={{
-                                    boxShadow: "0 -6px 0 #5c1021 inset, 0 6px 0 #5c1021, 0 3px 8px rgba(0,0,0,0.4)",
+                                    boxShadow: isRescheduled ? "0 -4px 0 #5c1021 inset, 0 4px 0 #5c1021" : "0 -6px 0 #5c1021 inset, 0 6px 0 #5c1021, 0 3px 8px rgba(0,0,0,0.4)",
                                     transformStyle: "preserve-3d",
                                     minWidth: "200px",
                                 }}
                             >
+                                {isRescheduled && <LockIcon className="mr-3 h-6 w-6 sm:h-8 sm:w-8" />}
                                 {hero.cta.label}
                             </button>
                         </div>

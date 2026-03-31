@@ -112,3 +112,20 @@ section[id] {
     transform: translateY(0) scale(1);
   }
 }
+
+/* Terminal scanline animation */
+@keyframes scan {
+  0% { top: -1px; opacity: 0; }
+  5% { opacity: 0.5; }
+  95% { opacity: 0.5; }
+  100% { top: 100%; opacity: 0; }
+}
+
+.animate-scan {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #ffc50e, transparent);
+  animation: scan 3s linear infinite;
+}

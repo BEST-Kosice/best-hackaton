@@ -1,4 +1,5 @@
 export const content = {
+    isRescheduled: true,
     nav: [
         { label: "Pre účastníkov", href: "#participants" },
         { label: "Pre sponzorov", href: "#sponsors" },
@@ -11,13 +12,22 @@ export const content = {
         tagline: "24 hodín. 100 účastníkov. 1 víťaz.",
         infoItems: [
             { icon: "clock" as const, value: "24", label: "hodín" },
-            { icon: "calendar" as const, value: "Apríl", label: "2026" },
+            { icon: "calendar" as const, value: "Jeseň", label: "2026" },
             { icon: "user" as const, value: "100", label: "participantov" },
         ],
+        countdownLabel: "EVENT JE PRESUNUTÝ",
+        rescheduledAnnouncement: {
+            title: "Update",
+            message: "unfortunately, it is our duty to inform you of event rescheduling after intense communication with our title and main strategic partners.",
+            status: "rescheduled",
+            timeframe: "autumn 2026",
+            contact: "In case of any questions, please contact us at kosice@best-eu.org",
+            outro: "We aim to deliver even better experience and we hope you give us chance once again."
+        },
         countdownDate: "2026-04-01T24:00:00+02:00",
-        countdownLabel: "DO KONCA REGISTRÁCIE",
+        countdownLabelOriginal: "DO KONCA REGISTRÁCIE",
         countdownUnits: { days: "DNÍ", hours: "HODÍN", minutes: "MINÚT", seconds: "SEKÚND" },
-        cta: { label: "REGISTRUJ SA", href: "#participants" },
+        cta: { label: "REGISTRÁCIA ZATVORENÁ", href: "#participants" },
         secondary: { label: "STAŇTE SA PARTNEROM", href: "#sponsors" },
     },
     participants: {
@@ -40,8 +50,8 @@ export const content = {
             "Tričko a ďalšie drobnosti",
         ],
         schedule: {
-            fridayLabel: "Piatok <10.04.>",
-            saturdayLabel: "Sobota <11.04.>",
+            fridayLabel: "Jeseň 2026",
+            saturdayLabel: "Jeseň 2026",
             friday: [
                 { time: "14:00", activity: "Registrácia a welcome coffee" },
                 { time: "15:00", activity: "Oficiálne otvorenie a privítanie" },

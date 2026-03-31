@@ -38,6 +38,28 @@ export function RegistrationModal({ isOpen, onClose }: RegistrationModalProps) {
 
     if (!isOpen) return null;
 
+    if (content.isRescheduled) {
+        return createPortal(
+            <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4 bg-black/80 backdrop-blur-md" onClick={onClose}>
+                <div className="bg-[#0c141d] border-2 border-[#ffc50e] p-8 max-w-md w-full rounded-2xl shadow-[0_0_50px_rgba(255,197,14,0.3)] animate-[slideUp_0.3s_ease-out] text-center relative overflow-hidden" onClick={e => e.stopPropagation()}>
+                    <div className="absolute top-0 left-0 w-full h-1 bg-[#ffc50e]" />
+                    <div className="text-5xl sm:text-6xl mb-6">🔒</div>
+                    <h3 className="text-2xl sm:text-3xl font-bold text-[#ffc50e] mb-4 font-upheaval">REGISTRÁCIA POZASTAVENÁ</h3>
+                    <p className="text-[#f2edda] mb-8 font-medium leading-relaxed uppercase tracking-wider text-xs sm:text-sm opacity-80">
+                        Vzhľadom na presun podujatia na jeseň 2026 sme dočasne pozastavili registráciu nových účastníkov. Sledujte naše sociálne siete pre ďalšie informácie.
+                    </p>
+                    <button 
+                        onClick={onClose}
+                        className="w-full py-4 bg-[#981a36] text-[#ffc50e] font-bold rounded-xl hover:bg-[#7a152b] transition-all font-upheaval tracking-widest cursor-pointer shadow-[0_4px_0_#5c1021]"
+                    >
+                        ROZUMIEM
+                    </button>
+                </div>
+            </div>,
+            document.body
+        );
+    }
+
     const renderContent = () => {
         switch (view) {
             case "select":
