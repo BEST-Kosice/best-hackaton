@@ -13,16 +13,16 @@ export const content = {
         infoItems: [
             { icon: "clock" as const, value: "24", label: "hodín" },
             { icon: "calendar" as const, value: "Jeseň", label: "2026" },
-            { icon: "user" as const, value: "100", label: "participantov" },
+            { icon: "user" as const, value: "100", label: "účastníkov" },
         ],
         countdownLabel: "EVENT JE PRESUNUTÝ",
         rescheduledAnnouncement: {
-            title: "Update",
-            message: "unfortunately, it is our duty to inform you of event rescheduling after intense communication with our title and main strategic partners.",
-            status: "rescheduled",
-            timeframe: "autumn 2026",
-            contact: "In case of any questions, please contact us at kosice@best-eu.org",
-            outro: "We aim to deliver even better experience and we hope you give us chance once again."
+            title: "AKTUALIZÁCIA",
+            message: "S poľutovaním vám musíme oznámiť presunutie podujatia po intenzívnej komunikácii s našimi generálnymi a hlavnými strategickými partnermi.",
+            status: "presunuté",
+            timeframe: "jeseň 2026",
+            contact: "V prípade akýchkoľvek otázok nás prosím kontaktujte na kosice@best-eu.org",
+            outro: "Naším cieľom je priniesť vám ešte lepší zážitok a pevne veríme, že nám dáte opäť šancu."
         },
         countdownDate: "2026-04-01T24:00:00+02:00",
         countdownLabelOriginal: "DO KONCA REGISTRÁCIE",
